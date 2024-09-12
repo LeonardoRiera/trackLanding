@@ -1,0 +1,95 @@
+header {
+    position: relative; /* Para que las imágenes se posicionen dentro del header */
+    height: 54vmax;
+    overflow: hidden; /* Oculta cualquier desbordamiento */
+    background-color: #0e1910;
+    
+    nav {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        justify-content: end;
+        height: 3vmax;
+
+        .tracker {
+            font-family: "Jockey One", system-ui;
+            color: #ff6933;
+            font-weight: bold;
+            font-size: 300vmax;
+            position: absolute;
+            top:0.5%;
+            left: 2%;
+            font-size: 3vmax;
+        }
+
+        .navbar-nav {
+            align-items: center;
+            margin-top: 3vmax;
+            margin-right: 1.5vmax;
+        }
+        .nav-link {
+            font-family: "Teko", sans-serif; 
+            color: rgb(251, 249, 121);
+            font-size: 2vmax;
+            cursor: pointer;
+        }
+    
+        .falsoBoton {
+            text-decoration: none;
+            color: rgb(255, 253, 253);
+            padding: 0.2vmax 3vmax;
+            background-color: #fc6d39;
+            border-radius: 10px;
+            font-size: 1.7vmax;
+            font-family: "Teko", sans-serif;
+            text-align: center;
+            margin-left: 1vmax; 
+            
+           
+        }
+
+       
+       
+    }
+
+
+    .textoPrincipal {
+        font-family: "Jockey One", system-ui;
+        color: rgb(251, 249, 121);
+        font-weight: bold;
+        font-size: 8vmax;
+        position: absolute;
+        text-align: center;
+        top: 8%;
+        left: 35%;
+        line-height: 0.9;
+    }
+    
+    .conectate {
+        @include boton;
+        top: 38%;
+        left: 44%;
+        
+       
+    }
+    
+    .anotherColor {
+        color: #2eff4d;
+    }
+    
+    .fotoDesierto {
+        width: 100%;
+        position: relative;
+        top: -11vmax;
+        left: 0;
+        z-index: 2; /* La imagen del desierto estará en el fondo */
+        object-fit: contain; /* Comportamiento tipo cover */
+        object-position: center; /* Centrar la imagen */
+        image-rendering: auto; /* Mejora la calidad de la imagen renderizada */
+        filter: contrast(110%)
+    }
+
+}
+
+
+

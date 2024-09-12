@@ -1,0 +1,11 @@
+@mixin boton {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    padding: 0.2vmax 2vmax;
+    background-color: #fc6d39;
+    border-radius: 10px;
+    font-size: 1.8vmax;
+    font-family: "Teko", sans-serif;
+    position: absolute;
+    text-align: center;
+}

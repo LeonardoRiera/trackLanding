@@ -1,0 +1,344 @@
+@charset "UTF-8";
+header {
+  position: relative; /* Para que las imágenes se posicionen dentro del header */
+  height: 54vmax;
+  overflow: hidden; /* Oculta cualquier desbordamiento */
+  background-color: #0e1910;
+}
+header nav {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: end;
+  height: 3vmax;
+}
+header nav .tracker {
+  font-family: "Jockey One", system-ui;
+  color: #ff6933;
+  font-weight: bold;
+  font-size: 300vmax;
+  position: absolute;
+  top: 0.5%;
+  left: 2%;
+  font-size: 3vmax;
+}
+header nav .navbar-nav {
+  align-items: center;
+  margin-top: 3vmax;
+  margin-right: 1.5vmax;
+}
+header nav .nav-link {
+  font-family: "Teko", sans-serif;
+  color: rgb(251, 249, 121);
+  font-size: 2vmax;
+  cursor: pointer;
+}
+header nav .falsoBoton {
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+  padding: 0.2vmax 3vmax;
+  background-color: #fc6d39;
+  border-radius: 10px;
+  font-size: 1.7vmax;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  margin-left: 1vmax;
+}
+header .textoPrincipal {
+  font-family: "Jockey One", system-ui;
+  color: rgb(251, 249, 121);
+  font-weight: bold;
+  font-size: 8vmax;
+  position: absolute;
+  text-align: center;
+  top: 8%;
+  left: 35%;
+  line-height: 0.9;
+}
+header .conectate {
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+  padding: 0.2vmax 2vmax;
+  background-color: #fc6d39;
+  border-radius: 10px;
+  font-size: 1.8vmax;
+  font-family: "Teko", sans-serif;
+  position: absolute;
+  text-align: center;
+  top: 38%;
+  left: 44%;
+}
+header .anotherColor {
+  color: #2eff4d;
+}
+header .fotoDesierto {
+  width: 100%;
+  position: relative;
+  top: -11vmax;
+  left: 0;
+  z-index: 2; /* La imagen del desierto estará en el fondo */
+  object-fit: contain; /* Comportamiento tipo cover */
+  object-position: center; /* Centrar la imagen */
+  image-rendering: auto; /* Mejora la calidad de la imagen renderizada */
+  filter: contrast(110%);
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 1400px) {
+  .textoPrincipal {
+    /* font-size: 12vmax; */
+    left: 29%;
+  }
+}
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 1200px) {
+  /* .nav-link {
+
+      font-size: 3vmax;
+
+  } */
+  .textoPrincipal {
+    /* font-size: 12vmax; */
+    /*  left: 40%;  */
+  }
+  header nav .navbar-nav {
+    /* align-items: center; */
+    margin-top: 5vmax;
+  }
+  header nav .nav-link {
+    font-size: 2.7vmax;
+  }
+  header nav .falsoBoton {
+    font-size: 2.4vmax;
+  }
+  header nav .tracker {
+    font-size: 4.2vmax;
+  }
+  header .fotoDesierto {
+    /* top: 1vmax; */
+  }
+  header .textoPrincipal {
+    /*  font-size: 11vmax;
+    top: 15%;
+    left: 30%; */
+  }
+  header .conectate {
+    /*  font-size: 2.2vmax;
+     top: 48%;
+     left: 43%; */
+  }
+}
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 992px) {
+  /* header y nav */
+  header {
+    height: 66vmax;
+  }
+  header nav {
+    /* .linksYBotones {
+       top:2.2%;
+       left: 72%;
+       width: 40%;
+
+
+     } */
+    /* .linksYBotones p {
+       font-size: 3vmax;
+
+     } */
+  }
+  header nav .navbar-nav {
+    align-items: center;
+    margin-top: 5vmax;
+    margin-right: 1.5vmax;
+  }
+  header nav .nav-link {
+    font-size: 2.8vmax;
+  }
+  header nav .tracker {
+    font-size: 4vmax;
+  }
+  header .fotoDesierto {
+    top: 1vmax;
+  }
+  header .textoPrincipal {
+    font-size: 11vmax;
+    top: 15%;
+    left: 30%;
+  }
+  header .conectate {
+    font-size: 2.2vmax;
+    top: 48%;
+    left: 43%;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 768px) {
+  /* header y nav */
+  header {
+    height: 75vmax;
+  }
+  header nav {
+    /*  .linksYBotones {
+
+         left: 69%;
+
+
+
+     } */
+    /* .linksYBotones p {
+        font-size: 3.3vmax;
+
+    } */
+  }
+  header nav .navbar-nav {
+    align-items: center;
+    margin-top: 5vmax;
+    margin-right: 1.5vmax;
+  }
+  header nav .nav-link {
+    font-size: 3vmax;
+  }
+  header nav .tracker {
+    font-size: 4.5vmax;
+  }
+  header .textoPrincipal {
+    font-size: 12vmax;
+    top: 17%;
+    left: 29%;
+  }
+  header .conectate {
+    font-size: 3vmax;
+    top: 50%;
+    left: 43%;
+  }
+  header .fotoDesierto {
+    top: 10vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 636px) {
+  header {
+    height: 80vmax;
+  }
+  header nav {
+    /* .linksYBotones {
+
+        left: 60%;
+
+
+
+    } */
+    /* .linksYBotones p {
+        font-size: 4vmax;
+
+    } */
+  }
+  header nav .navbar-nav {
+    align-items: center;
+    margin-top: 8vmax;
+    margin-right: 1.5vmax;
+  }
+  header nav .nav-link {
+    font-size: 3.5vmax;
+  }
+  header nav .tracker {
+    font-size: 5.5vmax;
+  }
+  header .textoPrincipal {
+    font-size: 12vmax;
+    top: 17%;
+    left: 29%;
+  }
+  header .conectate {
+    font-size: 3.8vmax;
+    top: 50%;
+    left: 43%;
+  }
+  header .fotoDesierto {
+    top: 19vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 576px) {
+  header {
+    height: 80vmax;
+  }
+  header nav .navContainer {
+    background-color: #0e1910;
+    z-index: 5;
+  }
+  header nav .tracker {
+    z-index: 55;
+  }
+  header nav .falsoBoton {
+    margin-bottom: 2vmax;
+  }
+  header nav .navbar-toggler {
+    background-color: #FF6933;
+    border: none !important;
+    padding: 0.5vmax;
+  }
+  header nav .borde {
+    border: none;
+  }
+  header nav .navbar-toggler:focus,
+  header nav .navbar-toggler:active {
+    box-shadow: none; /* Elimina el sombreado alrededor del botón */
+  }
+  header .textoPrincipal {
+    font-size: 11vmax;
+    top: 19%;
+    left: 28%;
+    transform: translateX(-50%);
+  }
+  header .conectate {
+    font-size: 3.5vmax;
+    top: 52%;
+    left: 41%;
+    transform: translateX(-50%);
+  }
+  header .fotoDesierto {
+    top: 21vmax;
+    width: 90vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 500px) {
+  header .textoPrincipal {
+    /* font-size: 12vmax; */
+    top: 19%;
+    left: 25%;
+  }
+  header .conectate {
+    font-size: 3.5vmax;
+    top: 52%;
+    left: 41%;
+  }
+  header .fotoDesierto {
+    top: 21vmax;
+    width: 90vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 425px) {
+  header .textoPrincipal {
+    /*  font-size: 12vmax; */
+    top: 19%;
+    left: 19%;
+  }
+  header .conectate {
+    font-size: 3.5vmax;
+    top: 52%;
+    left: 38%;
+  }
+}
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=styles.css.map */
