@@ -102,6 +102,24 @@ header .fotoDesierto {
   pointer-events: none;
 }
 
+/* seccion segunda */
+.logoMountainUnoContainer {
+  height: 60vmax;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.mountain1 {
+  width: 23%;
+  object-fit: contain; /* Comportamiento tipo cover */
+  object-position: center; /* Centrar la imagen */
+  align-self: flex-start;
+  margin-top: -3vmax;
+  z-index: 55;
+}
+
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 1400px) {
