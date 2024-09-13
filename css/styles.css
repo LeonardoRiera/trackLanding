@@ -307,6 +307,7 @@ header .fotoDesierto {
     background-color: #FF6933;
     border: none !important;
     padding: 0.5vmax;
+    margin-top: 1.2vmax;
   }
   header nav .borde {
     border: none;
