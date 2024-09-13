@@ -20,7 +20,7 @@
     .textoPrincipal {
         /* font-size: 12vmax; */
        
-        left: 29%; 
+       /*  left: 29%;  */
     }
     
     
@@ -146,19 +146,19 @@
     
 
         .fotoDesierto {
-          top: 1vmax;
+          /* top: 1vmax; */
         } 
       
         .textoPrincipal {
           font-size: 11vmax;
          top: 15%;
-         left: 30%; 
+         /* left: 30%;  */
         }
   
         .conectate {
           font-size: 2.2vmax;
           top: 48%;
-          left: 43%;
+          /* left: 43%; */
         }
 
 
@@ -171,7 +171,20 @@
 
 }
 
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
 
+
+
+@media screen and (max-width:834px) {
+
+   header {
+    /* height: 73.6vmax; */
+
+        .fotoDesierto {
+            /* top: 22vmax; */
+        } 
+   }
+}
 
 
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
@@ -226,18 +239,18 @@
         .textoPrincipal {
             font-size: 12vmax;
             top: 17%;
-            left: 29%; 
+           /*  left: 29%; */ 
         }
         
         .conectate {
             font-size: 3vmax;
              top: 50%;
-            left: 43%;
+           /*  left: 43%; */
         }
         
         
         .fotoDesierto {
-          top: 10vmax
+          /* top: 10vmax */
         } 
             
 
@@ -299,18 +312,18 @@
         .textoPrincipal {
             font-size: 12vmax;
             top: 17%;
-            left: 29%; 
+            /* left: 29%; */ 
         }
          
         .conectate {
             font-size: 3.8vmax;
             top: 50%;
-            left: 43%;
+            /* left: 43%; */
         }
          
          
         .fotoDesierto {
-            top: 19vmax;
+            /* top: 19vmax; */
         } 
              
  
@@ -367,20 +380,20 @@
         .textoPrincipal {
             font-size: 11vmax;
             top: 19%;
-            left: 28%; 
-            transform: translateX(-50%); 
+            /* left: 28%; 
+            transform: translateX(-50%); */ 
         }
          
         .conectate {
             font-size: 3.5vmax;
             top: 52%;
-            left: 41%;
-            transform: translateX(-50%); 
+            /* left: 41%;
+            transform: translateX(-50%);  */
         }
          
          
         .fotoDesierto {
-            top: 21vmax;
+           /*  top: 21vmax; */
             width: 90vmax;
         } 
              
@@ -398,16 +411,16 @@
         .textoPrincipal {
             /* font-size: 12vmax; */
             top: 19%;
-            left: 25%; 
+            /* left: 25%; */ 
         }
 
         .conectate {
             font-size: 3.5vmax;
             top: 52%;
-            left: 41%;
+          /*   left: 41%; */
         }
         .fotoDesierto {
-            top: 21vmax;
+           /*  top: 21vmax; */
             width: 90vmax;
         } 
     }
@@ -421,13 +434,13 @@
         .textoPrincipal {
            /*  font-size: 12vmax; */
             top: 19%;
-            left: 19%; 
+           /*  left: 19%; */ 
         }
 
         .conectate {
             font-size: 3.5vmax;
             top: 52%;
-            left: 38%;
+            /* left: 38%; */
         }
 
     }

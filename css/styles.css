@@ -21,6 +21,10 @@ header nav .tracker {
   top: 0.5%;
   left: 2%;
   font-size: 3vmax;
+  cursor: pointer;
+}
+header nav .tracker:hover {
+  color: #FBF979;
 }
 header nav .navbar-nav {
   align-items: center;
@@ -33,6 +37,9 @@ header nav .nav-link {
   font-size: 2vmax;
   cursor: pointer;
 }
+header nav .nav-link:hover {
+  color: #ff6933;
+}
 header nav .falsoBoton {
   text-decoration: none;
   color: rgb(255, 253, 253);
@@ -44,6 +51,10 @@ header nav .falsoBoton {
   text-align: center;
   margin-left: 1vmax;
 }
+header nav .falsoBoton:hover {
+  color: rgb(252, 250, 150);
+  background-color: #ff5e23;
+}
 header .textoPrincipal {
   font-family: "Jockey One", system-ui;
   color: rgb(251, 249, 121);
@@ -52,7 +63,8 @@ header .textoPrincipal {
   position: absolute;
   text-align: center;
   top: 8%;
-  left: 35%;
+  left: 50%; /* 50% desde la parte izquierda del contenedor */
+  transform: translateX(-50%);
   line-height: 0.9;
 }
 header .conectate {
@@ -66,21 +78,28 @@ header .conectate {
   position: absolute;
   text-align: center;
   top: 38%;
-  left: 44%;
+  left: 50%; /* 50% desde la izquierda */
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+header .conectate:hover {
+  color: rgb(252, 250, 150);
+  background-color: #ff5e23;
 }
 header .anotherColor {
   color: #2eff4d;
 }
 header .fotoDesierto {
   width: 100%;
-  position: relative;
-  top: -11vmax;
+  position: absolute;
+  bottom: 0;
   left: 0;
   z-index: 2; /* La imagen del desierto estará en el fondo */
   object-fit: contain; /* Comportamiento tipo cover */
   object-position: center; /* Centrar la imagen */
-  image-rendering: auto; /* Mejora la calidad de la imagen renderizada */
+  /* image-rendering: auto; */ /* Mejora la calidad de la imagen renderizada */
   filter: contrast(110%);
+  pointer-events: none;
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
@@ -88,7 +107,7 @@ header .fotoDesierto {
 @media screen and (max-width: 1400px) {
   .textoPrincipal {
     /* font-size: 12vmax; */
-    left: 29%;
+    /*  left: 29%;  */
   }
 }
 /* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
@@ -160,17 +179,26 @@ header .fotoDesierto {
     font-size: 4vmax;
   }
   header .fotoDesierto {
-    top: 1vmax;
+    /* top: 1vmax; */
   }
   header .textoPrincipal {
     font-size: 11vmax;
     top: 15%;
-    left: 30%;
+    /* left: 30%;  */
   }
   header .conectate {
     font-size: 2.2vmax;
     top: 48%;
-    left: 43%;
+    /* left: 43%; */
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 834px) {
+  header {
+    /* height: 73.6vmax; */
+  }
+  header .fotoDesierto {
+    /* top: 22vmax; */
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
@@ -206,15 +234,15 @@ header .fotoDesierto {
   header .textoPrincipal {
     font-size: 12vmax;
     top: 17%;
-    left: 29%;
+    /*  left: 29%; */
   }
   header .conectate {
     font-size: 3vmax;
     top: 50%;
-    left: 43%;
+    /*  left: 43%; */
   }
   header .fotoDesierto {
-    top: 10vmax;
+    /* top: 10vmax */
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
@@ -249,15 +277,15 @@ header .fotoDesierto {
   header .textoPrincipal {
     font-size: 12vmax;
     top: 17%;
-    left: 29%;
+    /* left: 29%; */
   }
   header .conectate {
     font-size: 3.8vmax;
     top: 50%;
-    left: 43%;
+    /* left: 43%; */
   }
   header .fotoDesierto {
-    top: 19vmax;
+    /* top: 19vmax; */
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
@@ -290,17 +318,17 @@ header .fotoDesierto {
   header .textoPrincipal {
     font-size: 11vmax;
     top: 19%;
-    left: 28%;
-    transform: translateX(-50%);
+    /* left: 28%; 
+    transform: translateX(-50%); */
   }
   header .conectate {
     font-size: 3.5vmax;
     top: 52%;
-    left: 41%;
-    transform: translateX(-50%);
+    /* left: 41%;
+    transform: translateX(-50%);  */
   }
   header .fotoDesierto {
-    top: 21vmax;
+    /*  top: 21vmax; */
     width: 90vmax;
   }
 }
@@ -309,15 +337,15 @@ header .fotoDesierto {
   header .textoPrincipal {
     /* font-size: 12vmax; */
     top: 19%;
-    left: 25%;
+    /* left: 25%; */
   }
   header .conectate {
     font-size: 3.5vmax;
     top: 52%;
-    left: 41%;
+    /*   left: 41%; */
   }
   header .fotoDesierto {
-    top: 21vmax;
+    /*  top: 21vmax; */
     width: 90vmax;
   }
 }
@@ -326,12 +354,12 @@ header .fotoDesierto {
   header .textoPrincipal {
     /*  font-size: 12vmax; */
     top: 19%;
-    left: 19%;
+    /*  left: 19%; */
   }
   header .conectate {
     font-size: 3.5vmax;
     top: 52%;
-    left: 38%;
+    /* left: 38%; */
   }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/

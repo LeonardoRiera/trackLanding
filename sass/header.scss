@@ -20,6 +20,12 @@ header {
             top:0.5%;
             left: 2%;
             font-size: 3vmax;
+            cursor: pointer ;
+        }
+
+        .tracker:hover {    
+            color: #FBF979 ;   
+            
         }
 
         .navbar-nav {
@@ -32,6 +38,10 @@ header {
             color: rgb(251, 249, 121);
             font-size: 2vmax;
             cursor: pointer;
+        }
+
+        .nav-link:hover {
+            color: #ff6933; 
         }
     
         .falsoBoton {
@@ -47,6 +57,12 @@ header {
             
            
         }
+        .falsoBoton:hover {
+            color: rgb(252, 250, 150);
+            background-color: #ff5e23;
+        }
+
+       
 
        
        
@@ -61,35 +77,52 @@ header {
         position: absolute;
         text-align: center;
         top: 8%;
-        left: 35%;
+        left: 50%; /* 50% desde la parte izquierda del contenedor */
+        transform: translateX(-50%); 
         line-height: 0.9;
     }
     
     .conectate {
         @include boton;
         top: 38%;
-        left: 44%;
-        
+        left: 50%; /* 50% desde la izquierda */
+        transform: translateX(-50%);  
+        cursor: pointer; 
        
+    }
+
+    .conectate:hover {
+        color: rgb(252, 250, 150);
+        background-color: #ff5e23;
     }
     
     .anotherColor {
         color: #2eff4d;
     }
-    
+
     .fotoDesierto {
         width: 100%;
-        position: relative;
-        top: -11vmax;
+        position: absolute;
+        bottom: 0;
         left: 0;
         z-index: 2; /* La imagen del desierto estará en el fondo */
         object-fit: contain; /* Comportamiento tipo cover */
         object-position: center; /* Centrar la imagen */
-        image-rendering: auto; /* Mejora la calidad de la imagen renderizada */
-        filter: contrast(110%)
+        /* image-rendering: auto; */ /* Mejora la calidad de la imagen renderizada */
+        filter: contrast(110%);
+        pointer-events: none;
     }
 
+    
+        
+    
+
+   
+    
+    
 }
+
+
 
 
 
