@@ -2,7 +2,7 @@ header {
     position: relative; /* Para que las imágenes se posicionen dentro del header */
     height: 54vmax;
     overflow: hidden; /* Oculta cualquier desbordamiento */
-    background-color: #0e1910;
+    background-color: $colorBackground;
     
     nav {
         display: flex;
@@ -12,8 +12,8 @@ header {
         height: 3vmax;
 
         .tracker {
-            font-family: "Jockey One", system-ui;
-            color: #ff6933;
+            font-family: $tipografiaPrincipal;
+            color: $colorPrincipal;
             font-weight: bold;
             font-size: 300vmax;
             position: absolute;
@@ -34,14 +34,14 @@ header {
             margin-right: 1.5vmax;
         }
         .nav-link {
-            font-family: "Teko", sans-serif; 
-            color: rgb(251, 249, 121);
+            font-family: $tipografiaSecundaria; 
+            color: $colorSecundario;
             font-size: 2vmax;
             cursor: pointer;
         }
 
         .nav-link:hover {
-            color: #ff6933; 
+            color: $colorPrincipal; 
         }
     
         .falsoBoton {
@@ -51,7 +51,7 @@ header {
             background-color: #fc6d39;
             border-radius: 10px;
             font-size: 1.7vmax;
-            font-family: "Teko", sans-serif;
+            font-family: $tipografiaSecundaria;
             text-align: center;
             margin-left: 1vmax; 
             
@@ -70,8 +70,8 @@ header {
 
 
     .textoPrincipal {
-        font-family: "Jockey One", system-ui;
-        color: rgb(251, 249, 121);
+        font-family: $tipografiaPrincipal;
+        color: $colorSecundario;
         font-weight: bold;
         font-size: 8vmax;
         position: absolute;
@@ -92,12 +92,12 @@ header {
     }
 
     .conectate:hover {
-        color: rgb(252, 250, 150);
+        color: rgb(253, 251, 121);
         background-color: #ff5e23;
     }
     
     .anotherColor {
-        color: #2eff4d;
+        color: $colorTerciario;
     }
 
     .fotoDesierto {
@@ -128,21 +128,90 @@ header {
 /* seccion segunda */
 
 .logoMountainUnoContainer {
-    height: 60vmax;
+    height: 50vmax;
     width: 100%;
     background-color: #000000;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
+    align-items: start;
+    
+
+    .logoContainer {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-top: 8vmax;
+
+
+        .mountain1 {
+            width: 70%;
+            z-index: 55;
+            opacity: 0; /* Inicialmente invisible */
+            transition: opacity 0.6s ease-in-out; /* Transición suave de 1 segundos */
+
+        }
+
+        .mountain1.visible {
+            opacity: 1; /* Visible cuando se agrega la clase 'visible' */
+        }
+
+    }
+
+      
+      
+    
+
+    .seccion1Letras {
+        display: flex;
+        justify-content: end;
+        flex-flow: column;
+        width: 50%;
+
+        .seccionTitulo {
+            color:  #ff6933;
+            font-family: $tipografiaSecundaria;
+            font-size: 12vmax;
+            margin-right: 3vmax;
+            
+        }
+        
+        .seccionParrafo {
+            width: 45%;
+            color: $colorSecundario;
+            font-family: $tipografiaFina;;
+            font-weight: lighter;
+            font-size: 1.2vmax;
+
+            .destacacion {
+                font-size: 1.8vmax;
+                
+            }
+
+            .destacacion2 {
+                font-size: 1.8vmax;
+                color: $colorTerciario;
+            }
+
+        }
+
+        .olaContenedor {
+
+            .laOla {
+                width: 45%;
+               
+            }
+
+        }
+        
+    }
+
+    .laOla2 {
+        margin-top: 8vmax;
+    }
 }
 
-.mountain1 {
-    width: 23%;
-    object-fit: contain; /* Comportamiento tipo cover */
-    object-position: center; /* Centrar la imagen */
-    align-self: flex-start;
-    margin-top: -3vmax;
-    z-index: 55;
-}
+
 
 
 

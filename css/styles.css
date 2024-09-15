@@ -83,7 +83,7 @@ header .conectate {
   cursor: pointer;
 }
 header .conectate:hover {
-  color: rgb(252, 250, 150);
+  color: rgb(253, 251, 121);
   background-color: #ff5e23;
 }
 header .anotherColor {
@@ -104,20 +104,60 @@ header .fotoDesierto {
 
 /* seccion segunda */
 .logoMountainUnoContainer {
-  height: 60vmax;
+  height: 50vmax;
   width: 100%;
   background-color: #000000;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
+  align-items: start;
 }
-
-.mountain1 {
-  width: 23%;
-  object-fit: contain; /* Comportamiento tipo cover */
-  object-position: center; /* Centrar la imagen */
-  align-self: flex-start;
-  margin-top: -3vmax;
+.logoMountainUnoContainer .logoContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-top: 8vmax;
+}
+.logoMountainUnoContainer .logoContainer .mountain1 {
+  width: 70%;
   z-index: 55;
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.6s ease-in-out; /* Transición suave de 1 segundos */
+}
+.logoMountainUnoContainer .logoContainer .mountain1.visible {
+  opacity: 1; /* Visible cuando se agrega la clase 'visible' */
+}
+.logoMountainUnoContainer .seccion1Letras {
+  display: flex;
+  justify-content: end;
+  flex-flow: column;
+  width: 50%;
+}
+.logoMountainUnoContainer .seccion1Letras .seccionTitulo {
+  color: #ff6933;
+  font-family: "Teko", sans-serif;
+  font-size: 12vmax;
+  margin-right: 3vmax;
+}
+.logoMountainUnoContainer .seccion1Letras .seccionParrafo {
+  width: 45%;
+  color: rgb(251, 249, 121);
+  font-family: "Abel", sans-serif;
+  font-weight: lighter;
+  font-size: 1.2vmax;
+}
+.logoMountainUnoContainer .seccion1Letras .seccionParrafo .destacacion {
+  font-size: 1.8vmax;
+}
+.logoMountainUnoContainer .seccion1Letras .seccionParrafo .destacacion2 {
+  font-size: 1.8vmax;
+  color: #2eff4d;
+}
+.logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
+  width: 45%;
+}
+.logoMountainUnoContainer .laOla2 {
+  margin-top: 8vmax;
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
