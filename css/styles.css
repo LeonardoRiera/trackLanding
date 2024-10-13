@@ -525,14 +525,6 @@ header .fotoDesierto {
     height: 80vmax;
     flex-flow: column nowrap;
     align-items: center;
-    /* .laOla2 {
-           width: 100%;
-           height: 20vmax;
-
-
-
-       }
-    */
   }
   .logoMountainUnoContainer .logoContainer {
     margin-bottom: 2vmax;
@@ -574,7 +566,7 @@ header .fotoDesierto {
     margin-left: 0;
   }
   .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
-    align-self: center;
+    /* align-self: center; */
     width: 80%;
     font-size: 1.2vmax;
   }
@@ -608,18 +600,28 @@ header .fotoDesierto {
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 /* seccion tercera */
 .elijeTuAventura {
-  height: 60vmax;
-  width: 100%;
+  height: 65vmax;
+  /*  width: 100%; */
   background-color: #0e1910;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  padding: 0 6vmax;
+  /* display: flex; */
+  /*  flex-flow: row wrap; */
+  /*  justify-content: center; */
   margin: -18vmax 0 0 0;
+  /*   .containerColum {
+        display: flex;
+        justify-content: end;
+    }
+
+    .containerColum2 {
+        display: flex;
+        justify-content: start;
+    } */
 }
 .elijeTuAventura .cardq {
   background-color: rgba(255, 255, 255, 0.045);
   border: solid rgba(255, 255, 255, 0.181) 2px;
-  width: 19vmax;
+  width: 20vmax;
   height: 31vmax;
   border-radius: 10px;
   display: flex;
@@ -657,6 +659,7 @@ header .fotoDesierto {
   font-family: "Abel", sans-serif;
   margin: 2.5px;
   letter-spacing: 1px;
+  padding: 0 10px;
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
