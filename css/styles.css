@@ -609,17 +609,20 @@ header .fotoDesierto {
   }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 428px) {
+  .logoMountainUnoContainer {
+    height: 80vmax;
+  }
   .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
-    width: 90%;
-    font-size: 1.5vmax;
+    width: 95%;
+    font-size: 1.8vmax;
   }
   .logoMountainUnoContainer .seccion1Letras .olaContenedor {
     display: flex;
     justify-content: center;
   }
   .logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
-    width: 90%;
+    width: 95%;
     text-align: center;
   }
 }

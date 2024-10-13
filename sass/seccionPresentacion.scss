@@ -481,14 +481,16 @@
 
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:428px) {
 
     .logoMountainUnoContainer {
+
+        height: 80vmax;
         .seccion1Letras {
             .seccionParrafo {
             
-                width: 90%;
-                font-size: 1.5vmax;
+                width: 95%;
+                font-size: 1.8vmax;
 
             }
 
@@ -496,7 +498,7 @@
                 display: flex;
                 justify-content: center;
                 .laOla {
-                    width: 90%;
+                    width: 95%;
                     text-align: center;
                 }
     
