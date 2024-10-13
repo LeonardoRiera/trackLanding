@@ -92,7 +92,7 @@ header .anotherColor {
 header .fotoDesierto {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -0.3%;
   left: 0;
   z-index: 2; /* La imagen del desierto estará en el fondo */
   object-fit: contain; /* Comportamiento tipo cover */
@@ -102,62 +102,12 @@ header .fotoDesierto {
   pointer-events: none;
 }
 
-/* seccion segunda */
-.logoMountainUnoContainer {
-  height: 50vmax;
+/* seccion tercera mudar*/
+.elijeTuAventura {
+  height: 40vmax;
   width: 100%;
-  background-color: #000000;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: start;
-}
-.logoMountainUnoContainer .logoContainer {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  margin-top: 8vmax;
-}
-.logoMountainUnoContainer .logoContainer .mountain1 {
-  width: 70%;
-  z-index: 55;
-  opacity: 0; /* Inicialmente invisible */
-  transition: opacity 0.6s ease-in-out; /* Transición suave de 1 segundos */
-}
-.logoMountainUnoContainer .logoContainer .mountain1.visible {
-  opacity: 1; /* Visible cuando se agrega la clase 'visible' */
-}
-.logoMountainUnoContainer .seccion1Letras {
-  display: flex;
-  justify-content: end;
-  flex-flow: column;
-  width: 50%;
-}
-.logoMountainUnoContainer .seccion1Letras .seccionTitulo {
-  color: #ff6933;
-  font-family: "Teko", sans-serif;
-  font-size: 12vmax;
-  margin-right: 3vmax;
-}
-.logoMountainUnoContainer .seccion1Letras .seccionParrafo {
-  width: 45%;
-  color: rgb(251, 249, 121);
-  font-family: "Abel", sans-serif;
-  font-weight: lighter;
-  font-size: 1.2vmax;
-}
-.logoMountainUnoContainer .seccion1Letras .seccionParrafo .destacacion {
-  font-size: 1.8vmax;
-}
-.logoMountainUnoContainer .seccion1Letras .seccionParrafo .destacacion2 {
-  font-size: 1.8vmax;
-  color: #2eff4d;
-}
-.logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
-  width: 45%;
-}
-.logoMountainUnoContainer .laOla2 {
-  margin-top: 8vmax;
+  background-color: #0e1910;
+  margin-top: -18vmax;
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
@@ -251,12 +201,15 @@ header .fotoDesierto {
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 835px) {
   header {
     /* height: 73.6vmax; */
   }
   header .fotoDesierto {
     /* top: 22vmax; */
+  }
+  .elijeTuAventura {
+    margin-top: -14vmax;
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
@@ -390,6 +343,9 @@ header .fotoDesierto {
     /*  top: 21vmax; */
     width: 90vmax;
   }
+  .elijeTuAventura {
+    margin-top: -13vmax;
+  }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 500px) {
@@ -407,6 +363,9 @@ header .fotoDesierto {
     /*  top: 21vmax; */
     width: 90vmax;
   }
+  .elijeTuAventura {
+    margin-top: -10vmax;
+  }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 425px) {
@@ -422,10 +381,243 @@ header .fotoDesierto {
   }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 360px) {
+  .elijeTuAventura {
+    margin-top: -8vmax;
+  }
+}
+/* seccion segunda */
+.logoMountainUnoContainer {
+  height: 48vmax;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: start;
+  margin-top: 5vmax;
+}
+.logoMountainUnoContainer .logoContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-top: 8vmax;
+}
+.logoMountainUnoContainer .logoContainer .mountain1 {
+  width: 70%;
+  z-index: 55;
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.6s ease-in-out; /* Transición suave de 1 segundos */
+}
+.logoMountainUnoContainer .logoContainer .mountain1.visible {
+  opacity: 1; /* Visible cuando se agrega la clase 'visible' */
+}
+.logoMountainUnoContainer .seccion1Letras {
+  display: flex;
+  justify-content: end;
+  flex-flow: column;
+  width: 50%;
+}
+.logoMountainUnoContainer .seccion1Letras .seccionTitulo {
+  color: #ff6933;
+  font-family: "Teko", sans-serif;
+  font-size: 12vmax;
+  margin-right: 3vmax;
+}
+.logoMountainUnoContainer .seccion1Letras .seccionParrafo {
+  width: 45%;
+  color: rgb(251, 249, 121);
+  font-family: "Abel", sans-serif;
+  font-weight: lighter;
+  font-size: 1.2vmax;
+}
+.logoMountainUnoContainer .seccion1Letras .seccionParrafo .destacacion {
+  font-size: 1.8vmax;
+}
+.logoMountainUnoContainer .seccion1Letras .seccionParrafo .destacacion2 {
+  font-size: 1.8vmax;
+  color: #2eff4d;
+}
+.logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
+  width: 45%;
+}
+
+.laOla2 {
+  /*  width: 100%;
+   position: relative;
+   z-index: 4 */ /* ; */
+  margin-top: -10vmax;
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 992px) {
+  .logoMountainUnoContainer {
+    /* .laOla2 {
+        margin-top: 10%;
+    } */
+  }
+  .logoMountainUnoContainer .logoContainer {
+    margin-top: 10vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
+    width: 60%;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 835px) {
+  .logoMountainUnoContainer {
+    margin-top: 7vmax;
+    height: 50vmax;
+    margin-bottom: 0;
+  }
+  .logoMountainUnoContainer .logoContainer {
+    margin-top: 8vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionTitulo {
+    color: #ff6933;
+    font-family: "Teko", sans-serif;
+    font-size: 10vmax;
+    margin-right: 3vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
+    width: 60%;
+    font-size: 1.2vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
+    width: 60%;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  galaxy tab s7  | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 800px) {
+  .logoMountainUnoContainer {
+    margin-top: 7vmax;
+    height: 43vmax;
+    /*   .laOla2 {
+          margin-top: 8%;
+      } */
+  }
+  .logoMountainUnoContainer .logoContainer {
+    margin-top: 8vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionTitulo {
+    font-size: 9vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
+    width: 70%;
+    color: rgb(251, 249, 121);
+    font-family: "Abel", sans-serif;
+    font-weight: lighter;
+    font-size: 1.2vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
+    width: 60%;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 636px) {
+  .logoMountainUnoContainer {
+    margin-top: 7vmax;
+    height: 47vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionTitulo {
+    color: #ff6933;
+    font-family: "Teko", sans-serif;
+    font-size: 10vmax;
+    margin-right: 3vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
+    width: 60%;
+    color: rgb(251, 249, 121);
+    font-family: "Abel", sans-serif;
+    font-weight: lighter;
+    font-size: 1.2vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
+    width: 60%;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 576px) {
+  .logoMountainUnoContainer {
+    margin-top: -5vmax;
+    height: 80vmax;
+    flex-flow: column nowrap;
+    align-items: center;
+    /* .laOla2 {
+           width: 100%;
+           height: 20vmax;
+
+
+
+       }
+    */
+  }
+  .logoMountainUnoContainer .logoContainer {
+    margin-bottom: 2vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionTitulo {
+    color: #ff6933;
+    font-family: "Teko", sans-serif;
+    font-size: 10vmax;
+    margin-right: 3vmax;
+    width: 100%;
+    text-align: center;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
+    width: 100%;
+    font-size: 1.5vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
+    width: 100%;
+  }
+}
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 500px) {
+  .logoMountainUnoContainer {
+    height: 70vmax;
+    /*   .laOla2 {
+          margin-top: 8%;
+      } */
+  }
+  .logoMountainUnoContainer .logoContainer {
+    width: 65%;
+  }
+  .logoMountainUnoContainer .seccion1Letras {
+    width: 60%;
+    /*  align-items: center; */
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionTitulo {
+    font-size: 8vmax;
+    margin-left: 0;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
+    align-self: center;
+    width: 80%;
+    font-size: 1.2vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .olaContenedor {
+    display: flex;
+    justify-content: center;
+  }
+  .logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
+    width: 80%;
+    text-align: center;
+  }
+}
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
 }
 
 /*# sourceMappingURL=styles.css.map */

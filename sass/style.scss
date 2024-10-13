@@ -1,7 +1,7 @@
 @import 'mixin'; 
 @import 'variables';
 @import 'header';
-@import 'mediaQuery';
+@import 'seccionPresentacion';
 
 
 
@@ -12,6 +12,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
 }
 
 

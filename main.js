@@ -9,7 +9,7 @@ gsap.to('#textoPrincipal', {
 });
 
 
-
+/* efecto de aparicion de la montaña */
 const imagen = document.getElementById('miMontaña');
 
 const observer = new IntersectionObserver((entries) => {

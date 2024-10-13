@@ -103,7 +103,7 @@ header {
     .fotoDesierto {
         width: 100%;
         position: absolute;
-        bottom: 0;
+        bottom: -0.3%;
         left: 0;
         z-index: 2; /* La imagen del desierto estará en el fondo */
         object-fit: contain; /* Comportamiento tipo cover */
@@ -125,89 +125,497 @@ header {
 
 
 
-/* seccion segunda */
 
-.logoMountainUnoContainer {
-    height: 50vmax;
+
+
+
+/* seccion tercera mudar*/
+
+
+.elijeTuAventura {
+    height: 40vmax;
     width: 100%;
-    background-color: #000000;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: start;
+    background-color: $colorBackground;
+    margin-top: -18vmax;
+}
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
     
-
-    .logoContainer {
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        margin-top: 8vmax;
+    
+}
 
 
-        .mountain1 {
-            width: 70%;
-            z-index: 55;
-            opacity: 0; /* Inicialmente invisible */
-            transition: opacity 0.6s ease-in-out; /* Transición suave de 1 segundos */
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
 
-        }
 
-        .mountain1.visible {
-            opacity: 1; /* Visible cuando se agrega la clase 'visible' */
-        }
 
+@media screen and (max-width:1400px) {
+
+   
+    
+    .textoPrincipal {
+        /* font-size: 12vmax; */
+       
+       /*  left: 29%;  */
     }
-
-      
-      
     
+    
+    
+}
 
-    .seccion1Letras {
-        display: flex;
-        justify-content: end;
-        flex-flow: column;
-        width: 50%;
 
-        .seccionTitulo {
-            color:  #ff6933;
-            font-family: $tipografiaSecundaria;
-            font-size: 12vmax;
-            margin-right: 3vmax;
-            
-        }
-        
-        .seccionParrafo {
-            width: 45%;
-            color: $colorSecundario;
-            font-family: $tipografiaFina;;
-            font-weight: lighter;
-            font-size: 1.2vmax;
 
-            .destacacion {
-                font-size: 1.8vmax;
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+    
+    /* .nav-link {
                 
-            }
+        font-size: 3vmax;
+        
+    } */
 
-            .destacacion2 {
-                font-size: 1.8vmax;
-                color: $colorTerciario;
-            }
-
-        }
-
-        .olaContenedor {
-
-            .laOla {
-                width: 45%;
+    .textoPrincipal {
+        /* font-size: 12vmax; */
+       
+       /*  left: 40%;  */
+    }
+    header {
+    
+        nav {
+           
+            .navbar-nav {
+                /* align-items: center; */
+                margin-top: 5vmax;
                
             }
-
+  
+            .nav-link {
+                  
+                font-size: 2.7vmax;
+                  
+            }
+      
+            .falsoBoton {
+                font-size: 2.4vmax;
+            }
+      
+            .tracker {
+                font-size: 4.2vmax;
+            }
         }
+      
+  
+        .fotoDesierto {
+            /* top: 1vmax; */
+        } 
         
+        .textoPrincipal {
+           /*  font-size: 11vmax;
+           top: 15%;
+           left: 30%; */ 
+        }
+    
+        .conectate {
+           /*  font-size: 2.2vmax;
+            top: 48%;
+            left: 43%; */
+        }
+  
+  
+  
+  
+    } 
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+  /* header y nav */  
+
+    header {
+      height: 66vmax;
+
+        
+      
+        nav {
+         /* .linksYBotones {
+            top:2.2%;
+            left: 72%;
+            width: 40%;
+          
+        
+          } */
+        
+         /* .linksYBotones p {
+            font-size: 3vmax;
+               
+          } */
+
+           .navbar-nav {
+                align-items: center;
+                margin-top: 5vmax;
+                margin-right: 1.5vmax;
+            }
+
+            .nav-link {
+                
+                font-size: 2.8vmax;
+                
+            }
+    
+            .falsoBoton {
+               
+            }
+    
+            .tracker {
+                font-size: 4vmax;
+            }
+        }
+    
+
+        .fotoDesierto {
+          /* top: 1vmax; */
+        } 
+      
+        .textoPrincipal {
+          font-size: 11vmax;
+         top: 15%;
+         /* left: 30%;  */
+        }
+  
+        .conectate {
+          font-size: 2.2vmax;
+          top: 48%;
+          /* left: 43%; */
+        }
+
+
+
+
+    } 
+
+
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px) {
+
+    header {
+        /* height: 73.6vmax; */
+
+        .fotoDesierto {
+            /* top: 22vmax; */
+        } 
     }
 
-    .laOla2 {
-        margin-top: 8vmax;
+    .elijeTuAventura {
+        margin-top: -14vmax;
+    }
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+    /* header y nav */  
+
+   header {
+       height: 75vmax;
+       
+        nav {
+
+           /*  .linksYBotones {
+        
+                left: 69%;
+               
+              
+            
+            } */
+            
+            /* .linksYBotones p {
+                font-size: 3.3vmax;
+                   
+            } */
+
+
+            .navbar-nav {
+                align-items: center;
+                margin-top: 5vmax;
+                margin-right: 1.5vmax;
+            }
+
+            .nav-link {
+                
+                font-size: 3vmax;
+                
+            }
+        
+            .falsoBoton {
+                
+            }
+        
+            .tracker {
+                font-size: 4.5vmax;
+            }
+
+        }
+
+        .textoPrincipal {
+            font-size: 12vmax;
+            top: 17%;
+           /*  left: 29%; */ 
+        }
+        
+        .conectate {
+            font-size: 3vmax;
+             top: 50%;
+           /*  left: 43%; */
+        }
+        
+        
+        .fotoDesierto {
+          /* top: 10vmax */
+        } 
+            
+
+    }  
+
+
+   
+   
+    
+     
+
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    header {
+        height: 80vmax;
+        
+        nav {
+ 
+            /* .linksYBotones {
+         
+                left: 60%;
+                
+               
+               
+            } */
+             
+            /* .linksYBotones p {
+                font-size: 4vmax;
+                    
+            } */
+
+            .navbar-nav {
+                align-items: center;
+                margin-top: 8vmax;
+                margin-right: 1.5vmax;
+            }
+
+            .nav-link {
+                
+                font-size: 3.5vmax;
+                
+            }
+         
+            .falsoBoton {
+                  
+            }
+         
+            .tracker {
+                font-size: 5.5vmax;
+            }
+ 
+        }
+ 
+        .textoPrincipal {
+            font-size: 12vmax;
+            top: 17%;
+            /* left: 29%; */ 
+        }
+         
+        .conectate {
+            font-size: 3.8vmax;
+            top: 50%;
+            /* left: 43%; */
+        }
+         
+         
+        .fotoDesierto {
+            /* top: 19vmax; */
+        } 
+             
+ 
+    }  
+ 
+
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    header {
+        height: 80vmax;
+        
+        nav {
+
+            .navContainer {
+                background-color: #0e1910;
+                z-index: 5;
+            }
+            
+            .tracker {
+               z-index: 55;
+            }
+ 
+         
+            .falsoBoton {
+              margin-bottom: 2vmax;  
+            }
+         
+            .navbar-toggler {
+                background-color: #FF6933;
+                border: none !important;
+                padding: 0.5vmax;
+                margin-top: 1.2vmax;
+                
+            }
+    
+            .borde {
+                border: none;
+            }
+
+            .navbar-toggler:focus,
+            .navbar-toggler:active {
+                box-shadow: none; /* Elimina el sombreado alrededor del botón */
+            }
+    
+ 
+        }
+ 
+        .textoPrincipal {
+            font-size: 11vmax;
+            top: 19%;
+            /* left: 28%; 
+            transform: translateX(-50%); */ 
+        }
+         
+        .conectate {
+            font-size: 3.5vmax;
+            top: 52%;
+            /* left: 41%;
+            transform: translateX(-50%);  */
+        }
+         
+         
+        .fotoDesierto {
+           /*  top: 21vmax; */
+            width: 90vmax;
+        } 
+             
+ 
+    }  
+
+    .elijeTuAventura {
+        margin-top: -13vmax;
+    }
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+    header {
+
+        .textoPrincipal {
+            /* font-size: 12vmax; */
+            top: 19%;
+            /* left: 25%; */ 
+        }
+
+        .conectate {
+            font-size: 3.5vmax;
+            top: 52%;
+          /*   left: 41%; */
+        }
+        .fotoDesierto {
+           /*  top: 21vmax; */
+            width: 90vmax;
+        } 
+    }
+
+    
+    .elijeTuAventura {
+        margin-top: -10vmax;
+    }
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:425px) {
+    header {
+        .textoPrincipal {
+           /*  font-size: 12vmax; */
+            top: 19%;
+           /*  left: 19%; */ 
+        }
+
+        .conectate {
+            font-size: 3.5vmax;
+            top: 52%;
+            /* left: 38%; */
+        }
+
+    }
+   
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:360px) {
+    .elijeTuAventura {
+        margin-top: -8vmax;
     }
 }
 

@@ -1,0 +1,493 @@
+/* seccion segunda */
+
+.logoMountainUnoContainer {
+    height: 48vmax;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: start;
+    margin-top: 5vmax;
+   
+    
+    
+
+    .logoContainer {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-top: 8vmax;
+
+
+        .mountain1 {
+            width: 70%;
+            z-index: 55;
+            opacity: 0; /* Inicialmente invisible */
+            transition: opacity 0.6s ease-in-out; /* Transición suave de 1 segundos */
+
+        }
+
+        .mountain1.visible {
+            opacity: 1; /* Visible cuando se agrega la clase 'visible' */
+        }
+
+    }
+
+      
+      
+    
+
+    .seccion1Letras {
+        display: flex;
+        justify-content: end;
+        flex-flow: column;
+        width: 50%;
+        
+
+        .seccionTitulo {
+            color:  #ff6933;
+            font-family: $tipografiaSecundaria;
+            font-size: 12vmax;
+            margin-right: 3vmax;
+            
+        }
+        
+        .seccionParrafo {
+            width: 45%;
+            color: $colorSecundario;
+            font-family: $tipografiaFina;;
+            font-weight: lighter;
+            font-size: 1.2vmax;
+
+            .destacacion {
+                font-size: 1.8vmax;
+                
+            }
+
+            .destacacion2 {
+                font-size: 1.8vmax;
+                color: $colorTerciario;
+            }
+
+        }
+
+        .olaContenedor {
+
+            .laOla {
+                width: 45%;
+               
+            }
+
+        }
+        
+    }
+
+  
+}
+
+.laOla2 {
+   /*  width: 100%;
+    position: relative;
+    z-index: 4 *//* ; */
+    margin-top: -10vmax;
+    
+    
+}
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+    
+    
+    
+    
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+    
+   
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+    .logoMountainUnoContainer {
+       
+
+        
+        .logoContainer {
+            margin-top: 10vmax;
+        } 
+        
+        .seccion1Letras {
+
+            .seccionParrafo {
+                width: 60%;
+               
+            }    
+        }
+
+        /* .laOla2 {
+            margin-top: 10%;
+        } */
+    
+
+    }
+    
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px) {
+
+    
+
+    .logoMountainUnoContainer {
+        margin-top:7vmax;
+        height:50vmax;
+        margin-bottom: 0;
+
+        .logoContainer {
+            margin-top: 8vmax;
+        }
+
+        .seccion1Letras {
+
+            .seccionTitulo {
+                color:  #ff6933;
+                font-family: $tipografiaSecundaria;
+                font-size: 10vmax;
+                margin-right: 3vmax;
+
+                
+            }
+
+            .seccionParrafo {
+                width: 60%;
+                font-size: 1.2vmax;
+    
+            }
+
+            .olaContenedor {
+
+                .laOla {
+                    width: 60%;
+                   
+                }
+    
+            }
+            
+            
+            
+            
+        }
+
+        
+    
+
+    }
+
+    .laOla2 {
+      
+    }
+}
+
+
+/* ++++++++++++++++++++++++ media query |  galaxy tab s7  | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+     
+
+    .logoMountainUnoContainer {
+        margin-top:7vmax;
+        height: 43vmax;
+
+        .logoContainer {
+            margin-top: 8vmax;
+        }
+
+        .seccion1Letras {
+
+            .seccionTitulo {
+               
+                font-size: 9vmax;
+                
+
+                
+            }
+
+            .seccionParrafo {
+                width: 70%;
+                color: $colorSecundario;
+                font-family: $tipografiaFina;;
+                font-weight: lighter;
+                font-size: 1.2vmax;
+    
+            }
+
+            .olaContenedor {
+
+                .laOla {
+                    width: 60%;
+                   
+                }
+    
+            }
+            
+            
+            
+            
+        }
+
+      /*   .laOla2 {
+            margin-top: 8%;
+        } */
+    
+
+    }
+}
+   
+   
+    
+     
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+  
+
+   
+   
+    
+     
+
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+   
+    .logoMountainUnoContainer {
+        margin-top:7vmax;
+        height: 47vmax;
+
+        .seccion1Letras {
+
+            .seccionTitulo {
+                color:  #ff6933;
+                font-family: $tipografiaSecundaria;
+                font-size: 10vmax;
+                margin-right: 3vmax;
+
+                
+            }
+
+            .seccionParrafo {
+                width: 60%;
+                color: $colorSecundario;
+                font-family: $tipografiaFina;;
+                font-weight: lighter;
+                font-size: 1.2vmax;
+    
+            }
+
+            .olaContenedor {
+
+                .laOla {
+                    width: 60%;
+                   
+                }
+    
+            }
+            
+            
+            
+            
+        }
+
+       
+
+    }
+
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    .logoMountainUnoContainer {
+        margin-top: -5vmax;
+        height:80vmax;
+        flex-flow: column nowrap;
+        align-items: center;
+
+        .logoContainer {
+           margin-bottom: 2vmax;
+        }
+
+        .seccion1Letras {
+
+            .seccionTitulo {
+                color:  #ff6933;
+                font-family: $tipografiaSecundaria;
+                font-size: 10vmax;
+                margin-right: 3vmax;
+                width: 100%;
+                text-align: center;
+                
+            }
+
+            .seccionParrafo {
+                width: 100%;
+                font-size: 1.5vmax;
+    
+            }
+
+            .olaContenedor {
+
+                .laOla {
+                    width: 100%;
+                   
+                }
+    
+            }
+            
+            
+            
+            
+        }
+
+        /* .laOla2 {
+            width: 100%;
+            height: 20vmax;
+           
+
+            
+        }
+     */
+
+    }
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+   
+    .logoMountainUnoContainer {
+        
+        height: 70vmax;
+      
+
+        .logoContainer {
+            
+            width: 65%;
+              
+    
+        }
+
+        .seccion1Letras {
+            width: 60%;
+           /*  align-items: center; */
+           
+            .seccionTitulo {
+               
+                font-size: 8vmax;
+                margin-left: 0;
+                
+                
+
+                
+            }
+
+            .seccionParrafo {
+               align-self: center;
+                width: 80%;
+                font-size: 1.2vmax;
+    
+            }
+
+            .olaContenedor {
+                display: flex;
+                justify-content: center;
+                .laOla {
+                    width: 80%;
+                    text-align: center;
+                }
+    
+            }
+            
+            
+            
+            
+        }
+
+      /*   .laOla2 {
+            margin-top: 8%;
+        } */
+    }
+
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:425px) {
+   
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:320px) {
+   
+}
