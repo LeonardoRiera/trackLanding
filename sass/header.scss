@@ -125,29 +125,6 @@ header {
 
 
 
-
-
-
-
-/* seccion tercera mudar*/
-
-
-.elijeTuAventura {
-    height: 40vmax;
-    width: 100%;
-    background-color: $colorBackground;
-    margin-top: -18vmax;
-}
-
-
-
-
-
-
-
-
-
-
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:2220px) {
@@ -332,9 +309,7 @@ header {
         } 
     }
 
-    .elijeTuAventura {
-        margin-top: -14vmax;
-    }
+   
     
 }
 
@@ -553,9 +528,7 @@ header {
  
     }  
 
-    .elijeTuAventura {
-        margin-top: -13vmax;
-    }
+   
     
 
 }
@@ -583,10 +556,7 @@ header {
     }
 
     
-    .elijeTuAventura {
-        margin-top: -10vmax;
-    }
-    
+ 
 }
 
 
@@ -614,9 +584,7 @@ header {
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:360px) {
-    .elijeTuAventura {
-        margin-top: -8vmax;
-    }
+   
 }
 
 
