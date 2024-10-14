@@ -283,7 +283,9 @@
 
         .cardq {
             width: 24vmax;
-            height: 48vmax ;
+            height: 48vmax;
+
+            
         }    
            
        .cardqq {
@@ -307,6 +309,35 @@
             .cardq {
                 width: 30vmax;
                 height: 52vmax ;
+
+                .modeloImage {
+                    width: 18vmax;
+                    margin-top: 4.4vmax;
+                   
+                    
+                }
+    
+                .modeloText {
+                    margin-top: 1.8vmax;
+                   
+                    padding: 8px 2px 2px 2px;
+                    
+        
+                    .modeloTitle {
+                        font-size: 3.2vmax;    
+                    }
+            
+                    .modeloDescription {
+                        color: white;
+                        font-size: 1.8vmax;
+                        font-family: $tipografiaFina;
+                        margin:2.8px;
+                        letter-spacing: 1px;
+                        padding: 0 10px;
+        
+                    }
+            
+                }
             } 
 
         }
