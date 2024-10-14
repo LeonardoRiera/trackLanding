@@ -601,24 +601,11 @@ header .fotoDesierto {
 /* seccion tercera */
 .elijeTuAventura {
   height: 65vmax;
-  /*  width: 100%; */
   background-color: #0e1910;
-  padding: 0 6vmax;
-  /* display: flex; */
-  /*  flex-flow: row wrap; */
-  /*  justify-content: center; */
+  padding: 20vmax 6vmax 0 6vmax;
   margin: -18vmax 0 0 0;
-  /*   .containerColum {
-        display: flex;
-        justify-content: end;
-    }
-
-    .containerColum2 {
-        display: flex;
-        justify-content: start;
-    } */
 }
-.elijeTuAventura .cardq {
+.elijeTuAventura .cardq, .elijeTuAventura .cardq2, .elijeTuAventura .cardqq {
   background-color: rgba(255, 255, 255, 0.045);
   border: solid rgba(255, 255, 255, 0.181) 2px;
   width: 20vmax;
@@ -628,32 +615,32 @@ header .fotoDesierto {
   flex-flow: row wrap;
   justify-content: center;
   align-items: start;
-  margin: 20vmax 1vmax;
+  margin: 1vmax;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 10px 30px rgba(0, 0, 0, 0.633);
   overflow: hidden;
 }
-.elijeTuAventura .cardq .modeloImage {
+.elijeTuAventura .cardq .modeloImage, .elijeTuAventura .cardq2 .modeloImage, .elijeTuAventura .cardqq .modeloImage {
   width: 12vmax;
   margin-top: 2vmax;
   transition: transform 0.1s ease;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.863));
 }
-.elijeTuAventura .cardq .modeloImage:hover {
+.elijeTuAventura .cardq .modeloImage:hover, .elijeTuAventura .cardq2 .modeloImage:hover, .elijeTuAventura .cardqq .modeloImage:hover {
   transform: scale(1.15);
 }
-.elijeTuAventura .cardq .modeloText {
+.elijeTuAventura .cardq .modeloText, .elijeTuAventura .cardq2 .modeloText, .elijeTuAventura .cardqq .modeloText {
   margin-top: 1.5vmax;
   border-top: solid rgba(255, 255, 255, 0.281) 2px;
   padding: 8px 2px 2px 2px;
 }
-.elijeTuAventura .cardq .modeloText .modeloTitle {
+.elijeTuAventura .cardq .modeloText .modeloTitle, .elijeTuAventura .cardq2 .modeloText .modeloTitle, .elijeTuAventura .cardqq .modeloText .modeloTitle {
   color: rgb(251, 249, 121);
   font-size: 2vmax;
   font-family: "Jockey One", system-ui;
   text-align: center;
   letter-spacing: 1px;
 }
-.elijeTuAventura .cardq .modeloText .modeloDescription {
+.elijeTuAventura .cardq .modeloText .modeloDescription, .elijeTuAventura .cardq2 .modeloText .modeloDescription, .elijeTuAventura .cardqq .modeloText .modeloDescription {
   color: white;
   font-size: 1.1vmax;
   font-family: "Abel", sans-serif;
@@ -661,23 +648,102 @@ header .fotoDesierto {
   letter-spacing: 1px;
   padding: 0 10px;
 }
-
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 992px) {
+  .elijeTuAventura {
+    height: 120vmax;
+    padding: 20vmax 8vmax 0 8vmax;
+  }
+  .elijeTuAventura .containerColum {
+    display: flex;
+    justify-content: center;
+  }
+  .elijeTuAventura .containerColum .cardq, .elijeTuAventura .containerColum .cardqq, .elijeTuAventura .containerColum .cardq2 {
+    margin: 1vmax;
+    width: 32vmax;
+    height: 44vmax;
+  }
+  .elijeTuAventura .containerColum .cardq .modeloImage, .elijeTuAventura .containerColum .cardqq .modeloImage, .elijeTuAventura .containerColum .cardq2 .modeloImage {
+    width: 15vmax;
+    margin-top: 3.5vmax;
+  }
+  .elijeTuAventura .containerColum .cardq .modeloText, .elijeTuAventura .containerColum .cardqq .modeloText, .elijeTuAventura .containerColum .cardq2 .modeloText {
+    margin-top: 1.8vmax;
+    padding: 8px 2px 2px 2px;
+  }
+  .elijeTuAventura .containerColum .cardq .modeloText .modeloTitle, .elijeTuAventura .containerColum .cardqq .modeloText .modeloTitle, .elijeTuAventura .containerColum .cardq2 .modeloText .modeloTitle {
+    color: rgb(251, 249, 121);
+    font-size: 2.5vmax;
+    font-family: "Jockey One", system-ui;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .elijeTuAventura .containerColum .cardq .modeloText .modeloDescription, .elijeTuAventura .containerColum .cardqq .modeloText .modeloDescription, .elijeTuAventura .containerColum .cardq2 .modeloText .modeloDescription {
+    color: white;
+    font-size: 1.6vmax;
+    font-family: "Abel", sans-serif;
+    margin: 2.8px;
+    letter-spacing: 1px;
+    padding: 0 10px;
+  }
+  .elijeTuAventura .containerColum .cardq2 {
+    margin: 1vmax 1vmax;
+    width: 32vmax;
+    height: 44vmax;
+  }
+}
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 835px) {
   .elijeTuAventura {
     margin-top: -14vmax;
+    padding: 20vmax 7vmax 0 7vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla tab varios  | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 800px) {
+  .elijeTuAventura {
+    margin-top: -14vmax;
+    padding: 20vmax 3vmax 0 3vmax;
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 768px) {
+  .elijeTuAventura {
+    height: 120vmax;
+    padding: 20vmax 6vmax 0 6vmax;
+    margin: -18vmax 0 0 0;
+  }
+  .elijeTuAventura .cardq, .elijeTuAventura .cardqq, .elijeTuAventura .cardq2 {
+    width: 23vmax;
+    height: 33vmax;
+  }
+  .elijeTuAventura .cardq .modeloText, .elijeTuAventura .cardqq .modeloText, .elijeTuAventura .cardq2 .modeloText {
+    margin-top: 2vmax;
+  }
+  .elijeTuAventura .cardq .modeloText .modeloDescription, .elijeTuAventura .cardqq .modeloText .modeloDescription, .elijeTuAventura .cardq2 .modeloText .modeloDescription {
+    padding: 0 15px;
+  }
+  .elijeTuAventura .cardq2 {
+    width: 23vmax;
+    height: 33vmax;
+  }
+}
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 576px) {
   .elijeTuAventura {
     margin-top: -13vmax;
+    height: 250vmax;
+  }
+  .elijeTuAventura .cardq, .elijeTuAventura .cardqq, .elijeTuAventura .cardq2 {
+    width: 24vmax;
+    height: 48vmax;
+  }
+  .elijeTuAventura .cardqq {
+    margin-top: 1vmax;
   }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/

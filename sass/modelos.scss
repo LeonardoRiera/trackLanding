@@ -3,23 +3,12 @@
 
 .elijeTuAventura {
     height: 65vmax;
-   /*  width: 100%; */
+  
     background-color: $colorBackground;
-    padding: 0 6vmax;
-    /* display: flex; */
-   /*  flex-flow: row wrap; */
-   /*  justify-content: center; */
+    padding: 20vmax 6vmax 0 6vmax;
+  
     margin: -18vmax 0 0 0;
-    
-  /*   .containerColum {
-        display: flex;
-        justify-content: end;
-    }
 
-    .containerColum2 {
-        display: flex;
-        justify-content: start;
-    } */
 
     .cardq {
         background-color: rgba(255, 255, 255, 0.045);
@@ -31,7 +20,7 @@
         flex-flow: row wrap;
         justify-content:center;
         align-items: start;
-        margin: 20vmax 1vmax;
+        margin: 1vmax;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 10px 30px rgba(0, 0, 0, 0.633);
         overflow: hidden;
        
@@ -77,6 +66,14 @@
 
 
 
+    }
+
+    .cardqq {
+        @extend .cardq
+    }
+
+    .cardq2 {
+        @extend .cardq
     }
 }
 
@@ -131,7 +128,65 @@
 
 @media screen and (max-width:992px) {
 
-  
+    .elijeTuAventura {
+
+        height: 120vmax;
+        padding: 20vmax 8vmax 0 8vmax;
+
+        .containerColum {
+
+            display: flex;
+            justify-content: center;
+
+            .cardq {
+                margin: 1vmax;
+                width: 32vmax;
+                height: 44vmax;
+
+                .modeloImage {
+                    width: 15vmax;
+                    margin-top: 3.5vmax;
+                   
+                    
+                }
+
+                .modeloText {
+                    margin-top: 1.8vmax;
+                   
+                    padding: 8px 2px 2px 2px;
+                    
+        
+                    .modeloTitle {
+                        color: $colorSecundario;
+                        font-size: 2.5vmax;
+                        font-family: $tipografiaPrincipal;
+                        text-align: center;
+                        letter-spacing: 1px;
+                    }
+            
+                    .modeloDescription {
+                        color: white;
+                        font-size: 1.6vmax;
+                        font-family: $tipografiaFina;
+                        margin:2.8px;
+                        letter-spacing: 1px;
+                        padding: 0 10px;
+        
+                    }
+            
+                }
+            }
+
+            .cardq2 {
+
+                margin: 1vmax 1vmax; 
+                width: 32vmax;
+                height: 44vmax; 
+            }
+
+        }
+    
+    }
 
     
 }
@@ -144,8 +199,24 @@
 
     .elijeTuAventura {
         margin-top: -14vmax;
+        padding: 20vmax 7vmax 0 7vmax;
     }
     
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla tab varios  | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:800px) {
+
+    .elijeTuAventura {
+        margin-top: -14vmax;
+        padding: 20vmax 3vmax 0 3vmax;
+    }
+         
+
 }
 
 
@@ -157,8 +228,32 @@
 
      
 
+    .elijeTuAventura {
+        height: 120vmax;
+        padding: 20vmax 6vmax 0 6vmax;
+        margin: -18vmax 0 0 0;
+    
+    
+        .cardq {
+            width: 23vmax;
+            height: 33vmax;
 
-   
+
+            .modeloText {
+                margin-top: 2vmax;
+
+                .modeloDescription {
+                    padding: 0 15px;
+    
+                }
+            }    
+        }   
+
+        .cardq2 {
+            width: 23vmax;
+            height: 33vmax;
+        } 
+    }
    
     
      
@@ -183,6 +278,18 @@
 
     .elijeTuAventura {
         margin-top: -13vmax;
+        height: 250vmax;
+
+
+        .cardq {
+            width: 24vmax;
+            height: 48vmax ;
+        }    
+           
+       .cardqq {
+            margin-top: 1vmax ;
+        }
+        
     }
     
 
