@@ -566,7 +566,7 @@ header .fotoDesierto {
     margin-left: 0;
   }
   .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
-    /* align-self: center; */
+    align-self: center;
     width: 80%;
     font-size: 1.2vmax;
   }
