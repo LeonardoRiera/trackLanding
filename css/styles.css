@@ -751,6 +751,10 @@ header .fotoDesierto {
   .elijeTuAventura {
     margin-top: -10vmax;
   }
+  .elijeTuAventura .containerColum .cardq, .elijeTuAventura .containerColum .cardqq, .elijeTuAventura .containerColum .cardq2 {
+    width: 30vmax;
+    height: 52vmax;
+  }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
