@@ -2,13 +2,12 @@
 
 
 .elijeTuAventura {
-    height: 65vmax;
+    height: 62vmax;
   
     background-color: $colorBackground;
     padding: 20vmax 6vmax 0 6vmax;
   
     margin: -18vmax 0 0 0;
-
 
     .cardq {
         background-color: rgba(255, 255, 255, 0.045);
@@ -266,7 +265,7 @@
 
 @media screen and (max-width:636px) {
     
-
+    
 }
 
 
@@ -274,7 +273,7 @@
 
 /* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:581px) {
 
     .elijeTuAventura {
         margin-top: -13vmax;
@@ -311,7 +310,7 @@
                 height: 52vmax ;
 
                 .modeloImage {
-                    width: 18vmax;
+                    width: 19vmax;
                     margin-top: 4.4vmax;
                    
                     

@@ -600,7 +600,7 @@ header .fotoDesierto {
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 /* seccion tercera */
 .elijeTuAventura {
-  height: 65vmax;
+  height: 62vmax;
   background-color: #0e1910;
   padding: 20vmax 6vmax 0 6vmax;
   margin: -18vmax 0 0 0;
@@ -733,7 +733,7 @@ header .fotoDesierto {
 }
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 581px) {
   .elijeTuAventura {
     margin-top: -13vmax;
     height: 250vmax;
@@ -756,7 +756,7 @@ header .fotoDesierto {
     height: 52vmax;
   }
   .elijeTuAventura .containerColum .cardq .modeloImage, .elijeTuAventura .containerColum .cardqq .modeloImage, .elijeTuAventura .containerColum .cardq2 .modeloImage {
-    width: 18vmax;
+    width: 19vmax;
     margin-top: 4.4vmax;
   }
   .elijeTuAventura .containerColum .cardq .modeloText, .elijeTuAventura .containerColum .cardqq .modeloText, .elijeTuAventura .containerColum .cardq2 .modeloText {
