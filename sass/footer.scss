@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    height: 35vmax;
+    height: 45vmax;
     background-color: $colorBackground;
     margin: 0 !important;
     
@@ -76,6 +76,10 @@ footer {
     }
 
     .bloque {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         /* logo y redes */
 
