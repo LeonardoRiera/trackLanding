@@ -16,7 +16,6 @@ header nav .tracker {
   font-family: "Jockey One", system-ui;
   color: #ff6933;
   font-weight: bold;
-  font-size: 300vmax;
   position: absolute;
   top: 0.5%;
   left: 2%;
@@ -787,7 +786,7 @@ header .fotoDesierto {
   overflow: hidden;
   width: 100%;
   padding-top: 4vmax;
-  padding-bottom: 6vmax;
+  padding-bottom: 4vmax;
 }
 .sectionLetter .letterPrincipal {
   display: flex;
@@ -1095,7 +1094,7 @@ header .fotoDesierto {
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 footer {
   width: 100%;
-  height: 28vmax;
+  height: 35vmax;
   background-color: #0e1910;
   margin: 0 !important;
 }
@@ -1103,7 +1102,73 @@ footer .mountainFooter {
   margin: 0;
   padding: 0;
   width: 100%;
-  margin-top: -7vmax;
+  margin-top: -5vmax;
+}
+footer .contactos {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
+  margin-top: -6vmax;
+  padding: 0 8vmax;
+  /* border-bottom: 2px solid rgba(255, 255, 255, 0.518); */
+}
+footer .contactos .bloqueContacto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .contactos .bloqueContacto i {
+  color: #2eff4d;
+  font-size: 3vmax;
+  padding-bottom: 1vmax;
+}
+footer .contactos .bloqueContacto .parolas {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2vmax;
+  justify-content: center;
+}
+footer .contactos .bloqueContacto .parolas h5 {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  color: white;
+  justify-self: end;
+  margin: 0;
+  font-size: 2vmax;
+}
+footer .contactos .bloqueContacto .parolas p {
+  font-family: "Abel", sans-serif;
+  color: white;
+  font-size: 1.2vmax;
+}
+footer .linea {
+  color: #2eff4d;
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid #2eff4d;
+  border-radius: 10px;
+}
+footer .bloque {
+  /* logo y redes */
+  /* textos */
+  /* imagenfinal */
+}
+footer .bloque .trackerFooter {
+  font-family: "Jockey One", system-ui;
+  color: #ff6933;
+  font-weight: bold;
+  font-size: 3vmax;
+  cursor: pointer;
+}
+footer .bloque p {
+  font-family: "Jockey One", system-ui;
+  font-weight: bold;
+  font-size: 2vmax;
+  color: white;
+}
+footer .bloque .imagenFinal {
+  width: 10vmax;
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/

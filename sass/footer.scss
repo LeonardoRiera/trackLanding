@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    height: 28vmax;
+    height: 35vmax;
     background-color: $colorBackground;
     margin: 0 !important;
     
@@ -9,9 +9,104 @@ footer {
         margin: 0;
         padding: 0;
         width: 100%;
-        margin-top: -7vmax;
+        margin-top: -5vmax;
 
     }
+
+    .contactos {
+
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-around;
+        margin-top: -6vmax;
+        padding: 0 8vmax;
+        /* border-bottom: 2px solid rgba(255, 255, 255, 0.518); */
+        
+
+
+        .bloqueContacto {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+
+            i {
+                color: $colorTerciario;
+                font-size: 3vmax;
+                padding-bottom: 1vmax;
+                
+            }
+
+
+            .parolas {
+                display: flex;
+                flex-direction: column;
+                padding-left: 2vmax;
+                justify-content: center;
+
+                h5 {
+                    font-family: $tipografiaFina;
+                    font-weight: bold;
+                    color: white;
+                    justify-self: end;
+                    margin: 0;
+                    font-size: 2vmax;
+                }
+
+                p {
+                    font-family: $tipografiaFina;
+                    color: white; 
+                    font-size: 1.2vmax;
+                }
+               
+
+            }
+        }
+        
+    }
+
+    .linea {
+        color: $colorTerciario;
+        width: 70%;
+        margin: 0 auto;
+        border: 1px solid $colorTerciario;
+        border-radius: 10px;
+       
+    }
+
+    .bloque {
+
+        /* logo y redes */
+
+        .trackerFooter {
+
+            font-family: $tipografiaPrincipal;
+            color: $colorPrincipal;
+            font-weight: bold;
+            font-size: 3vmax;
+            cursor: pointer ;
+        }
+
+        /* textos */
+        p {
+            font-family: $tipografiaPrincipal; 
+            font-weight: bold;
+            font-size: 2vmax;
+            color: white;
+        }
+
+        /* imagenfinal */
+        .imagenFinal {
+            width: 10vmax;
+        }
+    }
+
+   
+
+
+
+
 }
 
 
