@@ -861,6 +861,237 @@ header .fotoDesierto {
   font-weight: lighter;
 }
 
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 992px) {
+  .sectionLetter {
+    /*   padding-top: 4vmax;
+    */
+    padding-bottom: 3vmax;
+  }
+  .sectionLetter .letterPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 12vmax;
+    padding-bottom: 2vmax;
+  }
+  .sectionLetter .letterPrincipal .Principal {
+    font-size: 6vmax;
+    text-align: start;
+    line-height: 0.9;
+    margin-bottom: 2vmax;
+  }
+  .sectionLetter .letterPrincipal .subtitulo {
+    line-height: 0.9;
+    font-size: 1.4vmax;
+    margin-right: 5vmax;
+    line-height: 1.4;
+  }
+  .sectionLetter .letterPrincipal .Secundario {
+    font-size: 5vmax;
+    text-align: start;
+    line-height: 0.9;
+    margin-bottom: 2vmax;
+    margin-top: 4vmax;
+  }
+  .sectionLetter .letterSecundario {
+    padding-top: 2vmax;
+  }
+  .sectionLetter .letterSecundario .opinion {
+    font-size: 1.5vmax;
+    font-weight: lighter;
+    padding-left: 3vmax;
+    padding-right: 10vmax;
+    letter-spacing: 1px;
+  }
+  .sectionLetter .letterSecundario .opinador {
+    font-size: 1.1vmax;
+    font-weight: lighter;
+  }
+  .sectionLetter .letterSecundario .opinion2 {
+    font-size: 1.4vmax;
+    font-weight: lighter;
+    padding-left: 3vmax;
+    padding-right: 10vmax;
+    margin-top: 12vmax;
+    letter-spacing: 1px;
+  }
+  .sectionLetter .letterSecundario .opinador2 {
+    font-size: 1.1vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 835px) {
+  .sectionLetter {
+    /*   padding-top: 4vmax;
+    */
+  }
+  .sectionLetter .letterPrincipal {
+    padding-left: 12vmax;
+    padding-bottom: 2vmax;
+  }
+  .sectionLetter .letterPrincipal .Principal {
+    font-size: 6vmax;
+    text-align: start;
+    margin-bottom: 2vmax;
+  }
+  .sectionLetter .letterPrincipal .subtitulo {
+    font-size: 1.4vmax;
+    margin-right: 5vmax;
+    line-height: 1.4;
+  }
+  .sectionLetter .letterPrincipal .Secundario {
+    font-size: 5vmax;
+    text-align: start;
+    line-height: 0.9;
+    margin-bottom: 2vmax;
+    margin-top: 4vmax;
+  }
+  .sectionLetter .letterSecundario {
+    padding-top: 2vmax;
+  }
+  .sectionLetter .letterSecundario .opinion {
+    font-size: 1.6vmax;
+    padding-left: 3vmax;
+    padding-right: 6vmax;
+  }
+  .sectionLetter .letterSecundario .opinador {
+    font-size: 1.1vmax;
+  }
+  .sectionLetter .letterSecundario .opinion2 {
+    font-size: 1.4vmax;
+    padding-left: 3vmax;
+    padding-right: 6vmax;
+    margin-top: 14vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 768px) {
+  .sectionLetter {
+    /*   padding-top: 4vmax;
+    */
+  }
+  .sectionLetter .letterPrincipal {
+    padding-left: 12vmax;
+    padding-bottom: 2vmax;
+  }
+  .sectionLetter .letterPrincipal .Principal {
+    font-size: 7vmax;
+    text-align: start;
+    margin-bottom: 2vmax;
+  }
+  .sectionLetter .letterPrincipal .subtitulo {
+    font-size: 1.6vmax;
+    margin-right: 5vmax;
+    line-height: 1.4;
+  }
+  .sectionLetter .letterPrincipal .Secundario {
+    font-size: 6vmax;
+    text-align: start;
+    line-height: 0.9;
+    margin-bottom: 2vmax;
+    margin-top: 4vmax;
+  }
+  .sectionLetter .letterSecundario {
+    padding-top: 8vmax;
+  }
+  .sectionLetter .letterSecundario .opinion {
+    font-size: 1.8vmax;
+    padding-left: 3vmax;
+    padding-right: 3vmax;
+  }
+  .sectionLetter .letterSecundario .opinador {
+    font-size: 1.4vmax;
+  }
+  .sectionLetter .letterSecundario .opinion2 {
+    font-size: 1.8vmax;
+    padding-left: 3vmax;
+    padding-right: 3vmax;
+    margin-top: 14vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 636px) {
+  .sectionLetter {
+    /*   padding-top: 4vmax;
+    */
+  }
+  .sectionLetter .letterPrincipal {
+    padding-left: 5vmax;
+    padding-bottom: 4vmax;
+    margin-bottom: 3vmax;
+  }
+  .sectionLetter .letterPrincipal .Principal {
+    font-size: 7vmax;
+    text-align: start;
+    margin-bottom: 2vmax;
+  }
+  .sectionLetter .letterPrincipal .subtitulo {
+    font-size: 1.8vmax;
+    margin-right: 1vmax;
+    line-height: 1.4;
+  }
+  .sectionLetter .letterPrincipal .Secundario {
+    font-size: 6vmax;
+    text-align: start;
+    line-height: 0.9;
+    margin-bottom: 2vmax;
+    margin-top: 4vmax;
+  }
+  .sectionLetter .letterSecundario {
+    padding-top: 3vmax;
+  }
+  .sectionLetter .letterSecundario .opinion {
+    font-size: 1.8vmax;
+    padding-left: 1vmax;
+    padding-right: 1.5vmax;
+  }
+  .sectionLetter .letterSecundario .opinador {
+    font-size: 1.5vmax;
+  }
+  .sectionLetter .letterSecundario .opinion2 {
+    font-size: 1.8vmax;
+    padding-left: 1vmax;
+    padding-right: 1.5vmax;
+    margin-top: 14vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 576px) {
+  .sectionLetter {
+    padding-bottom: 5vmax;
+  }
+  .sectionLetter .letterPrincipal {
+    padding-left: 5vmax;
+    padding-bottom: 4vmax;
+    margin-bottom: 1vmax;
+  }
+  .sectionLetter .letterSecundario {
+    padding-top: 3vmax;
+    padding-left: 5vmax;
+    padding-right: 5vmax;
+  }
+  .sectionLetter .letterSecundario .opinion {
+    font-size: 1.8vmax;
+    padding-left: 2vmax;
+    padding-right: 1.5vmax;
+  }
+  .sectionLetter .letterSecundario .opinador {
+    font-size: 1.5vmax;
+  }
+  .sectionLetter .letterSecundario .opinion2 {
+    font-size: 1.8vmax;
+    padding-left: 2vmax;
+    padding-right: 1.5vmax;
+    margin-top: 5vmax;
+  }
+}
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 * {
   margin: 0;
   padding: 0;

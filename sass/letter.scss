@@ -99,3 +99,440 @@
     }
     
 }
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+
+   
+    
+    
+    
+    
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+    
+    
+  
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+
+  
+    .sectionLetter {
+
+      /*   padding-top: 4vmax;
+     */
+        padding-bottom: 3vmax;
+    
+        .letterPrincipal {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            
+            padding-left: 12vmax;
+            padding-bottom: 2vmax;
+            
+    
+            .Principal {
+                font-size: 6vmax;
+                text-align: start;
+                line-height: 0.9;
+                margin-bottom: 2vmax;
+            }
+    
+            .subtitulo {
+                line-height: 0.9;
+                font-size: 1.4vmax;
+                margin-right: 5vmax;
+                line-height: 1.4;    
+                
+            }
+    
+            .Secundario {
+                font-size: 5vmax;
+                text-align: start;
+                line-height: 0.9;
+                margin-bottom: 2vmax;
+                margin-top: 4vmax;
+            }
+        }    
+    
+    
+        .letterSecundario {
+            padding-top: 2vmax;
+           
+    
+            .opinion {
+                font-size: 1.5vmax;
+                font-weight: lighter;
+                padding-left: 3vmax;
+                padding-right: 10vmax;
+                letter-spacing: 1px;
+    
+            }
+    
+            .opinador {
+              font-size: 1.1vmax;
+              font-weight: lighter;
+              
+    
+            }
+    
+            .opinion2 {
+                font-size: 1.4vmax;
+                font-weight: lighter;
+                padding-left: 3vmax; 
+                padding-right: 10vmax;
+                margin-top: 12vmax;
+                letter-spacing: 1px;
+    
+            }
+    
+            .opinador2 {
+              font-size: 1.1vmax;
+              
+            }
+    
+    
+        }
+        
+    }
+    
+
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:835px) {
+
+    
+    .sectionLetter {
+
+        /*   padding-top: 4vmax;
+       */
+      
+        .letterPrincipal {
+            padding-left: 12vmax;
+            padding-bottom: 2vmax;
+              
+      
+            .Principal {
+                font-size: 6vmax;
+                text-align: start;
+                margin-bottom: 2vmax;
+            }
+      
+            .subtitulo {
+                font-size: 1.4vmax;
+                margin-right: 5vmax;
+                line-height: 1.4;    
+                  
+            }
+      
+            .Secundario {
+                font-size: 5vmax;
+                text-align: start;
+                line-height: 0.9;
+                margin-bottom: 2vmax;
+                margin-top: 4vmax;
+            }
+        }    
+      
+      
+        .letterSecundario {
+            padding-top: 2vmax;
+             
+      
+            .opinion {
+                font-size: 1.6vmax;
+                padding-left: 3vmax;
+                padding-right: 6vmax;
+      
+            }
+      
+            .opinador {
+                font-size: 1.1vmax;
+                
+      
+            }
+      
+            .opinion2 {
+                font-size: 1.4vmax;
+                padding-left: 3vmax; 
+                padding-right: 6vmax;
+                margin-top: 14vmax;
+                
+      
+            }
+      
+              
+      
+        }
+          
+    }
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+     
+
+    .sectionLetter {
+
+        /*   padding-top: 4vmax;
+       */
+      
+        .letterPrincipal {
+            padding-left: 12vmax;
+            padding-bottom: 2vmax;
+              
+      
+            .Principal {
+                font-size: 7vmax;
+                text-align: start;
+                margin-bottom: 2vmax;
+            }
+      
+            .subtitulo {
+                font-size: 1.6vmax;
+                margin-right: 5vmax;
+                line-height: 1.4;    
+                  
+            }
+      
+            .Secundario {
+                font-size: 6vmax;
+                text-align: start;
+                line-height: 0.9;
+                margin-bottom: 2vmax;
+                margin-top: 4vmax;
+            }
+        }    
+      
+      
+        .letterSecundario {
+            padding-top: 8vmax;
+             
+      
+            .opinion {
+                font-size: 1.8vmax;
+                padding-left: 3vmax;
+                padding-right: 3vmax;
+      
+            }
+      
+            .opinador {
+                font-size: 1.4vmax;
+                
+      
+            }
+      
+            .opinion2 {
+                font-size: 1.8vmax;
+                padding-left: 3vmax; 
+                padding-right: 3vmax;
+                margin-top: 14vmax;
+                
+      
+            }
+      
+              
+      
+        }
+          
+    }
+   
+   
+    
+     
+
+}
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:636px) {
+    .sectionLetter {
+
+        /*   padding-top: 4vmax;
+       */
+      
+        .letterPrincipal {
+            padding-left: 5vmax;
+            padding-bottom: 4vmax;
+            margin-bottom: 3vmax;
+              
+      
+            .Principal {
+                font-size: 7vmax;
+                text-align: start;
+                margin-bottom: 2vmax;
+            }
+      
+            .subtitulo {
+                font-size: 1.8vmax;
+                margin-right: 1vmax;
+                line-height: 1.4;    
+                  
+            }
+      
+            .Secundario {
+                font-size: 6vmax;
+                text-align: start;
+                line-height: 0.9;
+                margin-bottom: 2vmax;
+                margin-top: 4vmax;
+            }
+        }    
+      
+      
+        .letterSecundario {
+            padding-top: 3vmax;
+             
+      
+            .opinion {
+                font-size: 1.8vmax;
+                padding-left: 1vmax;
+                padding-right: 1.5vmax;
+      
+            }
+      
+            .opinador {
+                font-size: 1.5vmax;
+                
+      
+            }
+      
+            .opinion2 {
+                font-size: 1.8vmax;
+                padding-left: 1vmax; 
+                padding-right: 1.5vmax;
+                margin-top: 14vmax;
+                
+      
+            }
+      
+              
+      
+        }
+          
+    }
+
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+   
+    .sectionLetter {
+       padding-bottom: 5vmax;
+      
+        .letterPrincipal {
+            padding-left: 5vmax;
+            padding-bottom: 4vmax;
+            margin-bottom: 1vmax;
+              
+      
+        }    
+      
+      
+        .letterSecundario {
+            padding-top: 3vmax;
+            padding-left: 5vmax;
+            padding-right: 5vmax;
+             
+      
+            .opinion {
+                font-size: 1.8vmax;
+                padding-left: 2vmax;
+                padding-right: 1.5vmax;
+      
+            }
+      
+            .opinador {
+                font-size: 1.5vmax;
+                
+      
+            }
+      
+            .opinion2 {
+                font-size: 1.8vmax;
+                padding-left: 2vmax; 
+                padding-right: 1.5vmax;
+                margin-top: 5vmax;
+                
+      
+            }
+      
+              
+      
+        }
+          
+    }
+    
+
+}
+
+/* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:500px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:425px) {
+   
+   
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:360px) {
+    
+}
+
