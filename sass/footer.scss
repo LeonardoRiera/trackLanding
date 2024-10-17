@@ -29,6 +29,8 @@ footer {
             display: flex;
             flex-direction: row;
             align-items: center;
+
+            
             
 
             i {
@@ -75,10 +77,10 @@ footer {
        
     }
 
-    .bloque {
+    .bloque1 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
 
         /* logo y redes */
@@ -88,9 +90,31 @@ footer {
             font-family: $tipografiaPrincipal;
             color: $colorPrincipal;
             font-weight: bold;
-            font-size: 3vmax;
+            font-size: 5vmax;
             cursor: pointer ;
         }
+        .sociales {
+            i {
+                color: $colorSecundario;
+                font-size: 2.3vmax;
+                padding: 0 0.8vmax;
+
+            }
+            
+            i:hover {
+                color: $colorPrincipal;
+            }
+
+            
+        }
+
+    }
+
+    .bloque2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
 
         /* textos */
         p {
@@ -99,6 +123,14 @@ footer {
             font-size: 2vmax;
             color: white;
         }
+        
+    }
+
+    .bloque3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         /* imagenfinal */
         .imagenFinal {
