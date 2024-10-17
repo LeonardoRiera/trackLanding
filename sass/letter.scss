@@ -1,0 +1,101 @@
+.sectionLetter {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 4vmax;
+
+
+    .letterPrincipal {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        
+        padding-left: 12vmax;
+        padding-bottom: 2vmax;
+        
+
+        .Principal {
+
+            font-family: $tipografiaPrincipal;
+            color: $colorSecundario;
+            font-weight: bold;
+            font-size: 6vmax;
+            text-align: start;
+            line-height: 0.9;
+            margin-bottom: 2vmax;
+        
+            .Color {
+                color: $colorTerciario;
+            }
+        }
+
+        .subtitulo {
+            color: white;
+            font-family: $tipografiaTerciaria;
+            line-height: 0.9;
+            font-size: 1.2vmax;
+            margin-right: 10vmax;
+            line-height: 1.4;    
+            
+        }
+
+        .Secundario {
+            font-family: $tipografiaPrincipal;
+            color: $colorPrincipal;
+            font-weight: bold;
+            font-size: 5vmax;
+            text-align: start;
+            line-height: 0.9;
+            margin-bottom: 2vmax;
+            margin-top: 4vmax;
+        }
+    }    
+
+
+    .letterSecundario {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-top: 2vmax;
+       
+
+        .opinion {
+            font-family: $tipografiaPrincipal;  
+            color: white;
+            font-size: 1.5vmax;
+            font-weight: lighter;
+            padding-left: 3vmax;
+            border-left: 3px solid rgba(255, 255, 255, 0.463) ;
+            padding-right: 18vmax;
+            letter-spacing: 1px;
+
+        }
+
+        .opinador {
+          font-size: 1.1vmax;
+          font-weight: lighter;
+          
+
+        }
+
+        .opinion2 {
+            font-family: $tipografiaPrincipal;  
+            color: white;
+            font-size: 1.4vmax;
+            font-weight: lighter;
+            padding-left: 3vmax;
+            border-left: 3px solid rgba(255, 255, 255, 0.463) ;
+            padding-right: 18vmax;
+            margin-top: 7vmax;
+            letter-spacing: 1px;
+
+        }
+
+        .opinador2 {
+          font-size: 1.1vmax;
+          font-weight: lighter;
+        }
+
+
+    }
+    
+}

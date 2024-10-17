@@ -2,10 +2,10 @@
 
 
 .elijeTuAventura {
-    height: 62vmax;
-  
-    background-color: $colorBackground;
-    padding: 20vmax 6vmax 0 6vmax;
+    height: 56vmax;
+    background: linear-gradient(to bottom, $colorBackground 50%, black);
+    /* background-color: $colorBackground; */
+    padding: 18vmax 6vmax 0 6vmax;
   
     margin: -18vmax 0 0 0;
 

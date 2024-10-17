@@ -366,7 +366,7 @@ header .fotoDesierto {
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 /* seccion segunda */
 .logoMountainUnoContainer {
-  height: 48vmax;
+  height: 43vmax;
   width: 100%;
   background-color: #000000;
   display: flex;
@@ -448,7 +448,7 @@ header .fotoDesierto {
 @media screen and (max-width: 835px) {
   .logoMountainUnoContainer {
     margin-top: 7vmax;
-    height: 50vmax;
+    height: 45vmax;
     margin-bottom: 0;
   }
   .logoMountainUnoContainer .logoContainer {
@@ -600,9 +600,10 @@ header .fotoDesierto {
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 /* seccion tercera */
 .elijeTuAventura {
-  height: 62vmax;
-  background-color: #0e1910;
-  padding: 20vmax 6vmax 0 6vmax;
+  height: 56vmax;
+  background: linear-gradient(to bottom, #0e1910 50%, black);
+  /* background-color: $colorBackground; */
+  padding: 18vmax 6vmax 0 6vmax;
   margin: -18vmax 0 0 0;
 }
 .elijeTuAventura .cardq, .elijeTuAventura .cardq2, .elijeTuAventura .cardqq {
@@ -782,6 +783,84 @@ header .fotoDesierto {
     margin-top: -8vmax;
   }
 }
+.sectionLetter {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 4vmax;
+}
+.sectionLetter .letterPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 12vmax;
+  padding-bottom: 2vmax;
+}
+.sectionLetter .letterPrincipal .Principal {
+  font-family: "Jockey One", system-ui;
+  color: rgb(251, 249, 121);
+  font-weight: bold;
+  font-size: 6vmax;
+  text-align: start;
+  line-height: 0.9;
+  margin-bottom: 2vmax;
+}
+.sectionLetter .letterPrincipal .Principal .Color {
+  color: #2eff4d;
+}
+.sectionLetter .letterPrincipal .subtitulo {
+  color: white;
+  font-family: "Nanum Gothic Coding";
+  line-height: 0.9;
+  font-size: 1.2vmax;
+  margin-right: 10vmax;
+  line-height: 1.4;
+}
+.sectionLetter .letterPrincipal .Secundario {
+  font-family: "Jockey One", system-ui;
+  color: #ff6933;
+  font-weight: bold;
+  font-size: 5vmax;
+  text-align: start;
+  line-height: 0.9;
+  margin-bottom: 2vmax;
+  margin-top: 4vmax;
+}
+.sectionLetter .letterSecundario {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 2vmax;
+}
+.sectionLetter .letterSecundario .opinion {
+  font-family: "Jockey One", system-ui;
+  color: white;
+  font-size: 1.5vmax;
+  font-weight: lighter;
+  padding-left: 3vmax;
+  border-left: 3px solid rgba(255, 255, 255, 0.463);
+  padding-right: 18vmax;
+  letter-spacing: 1px;
+}
+.sectionLetter .letterSecundario .opinador {
+  font-size: 1.1vmax;
+  font-weight: lighter;
+}
+.sectionLetter .letterSecundario .opinion2 {
+  font-family: "Jockey One", system-ui;
+  color: white;
+  font-size: 1.4vmax;
+  font-weight: lighter;
+  padding-left: 3vmax;
+  border-left: 3px solid rgba(255, 255, 255, 0.463);
+  padding-right: 18vmax;
+  margin-top: 7vmax;
+  letter-spacing: 1px;
+}
+.sectionLetter .letterSecundario .opinador2 {
+  font-size: 1.1vmax;
+  font-weight: lighter;
+}
+
 * {
   margin: 0;
   padding: 0;
