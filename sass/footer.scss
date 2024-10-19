@@ -1,8 +1,9 @@
 footer {
     width: 100%;
-    height: 45vmax;
+    height: 50vmax;
     background-color: $colorBackground;
     margin: 0 !important;
+    
     
 
     .mountainFooter {
@@ -115,13 +116,27 @@ footer {
         flex-direction: column;
         justify-content: start;
         align-items: center;
+        line-height: 1;
+        text-align: center;
+        margin-top:1vmax;
+        letter-spacing: 1px;
 
         /* textos */
         p {
             font-family: $tipografiaPrincipal; 
             font-weight: bold;
-            font-size: 2vmax;
-            color: white;
+            font-size: 2.5vmax;
+            color: $colorTerciario;
+            
+        }
+
+        .span1 {
+            color: $colorSecundario;
+        }
+
+        .span2 {
+            
+            color: $colorPrincipal;
         }
         
     }
@@ -129,20 +144,51 @@ footer {
     .bloque3 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
+
+        .qrTitulo {
+            color: white;
+            font-family: $tipografiaPrincipal;
+            font-weight: 300;
+        }
 
         /* imagenfinal */
         .imagenFinal {
-            width: 10vmax;
+            width: 7vmax;
+            background-color: white;
+            border-radius: 5px;
         }
     }
 
-   
+  
 
 
 
 
+}
+
+/* seccion derechos */
+.derechosContainer {
+    width: 100%;
+    height: 3vmax;
+    background-color: #0c140c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .derechos {
+        color: white;
+        text-align: center;
+        font-size: 0.9vmax;
+        font-family: $tipografiaFina;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 0.2px;
+        
+    }
 }
 
 
@@ -200,7 +246,17 @@ footer {
 
 @media screen and (max-width:992px) {
 
-  
+    footer {
+    
+        .contactos {
+            padding: 0 5vmax;
+        }
+
+        .linea {
+            width: 80%;
+              
+        }
+    }
 
 
     
@@ -213,7 +269,9 @@ footer {
 
 @media screen and (max-width:835px) {
 
-    
+    .contactos {
+        margin-top: -4vmax;
+    }
     
 }
 
@@ -239,7 +297,17 @@ footer {
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:636px) {
-    
+    footer {
+        height: 60vmax;
+        .contactos {
+            padding: 0 2vmax;
+        }
+
+        .linea {
+            width: 80%;
+              
+        }
+    }
 
 }
 
@@ -250,7 +318,40 @@ footer {
 
 @media screen and (max-width:576px) {
 
-   
+    footer {
+        height: 85vmax;
+        .bloque3 {
+
+            .qrTitulo {
+                color: white;
+                font-family: $tipografiaPrincipal;
+                font-weight: 300;
+                font-size: 1.8vmax;
+                text-align: center;
+            }
+        }
+
+        .contactos {
+
+            margin-top: -2vmax;
+            padding: 0;
+            justify-content: center;
+           
+
+            .contactosRow {
+                width: 40%;
+                
+                .bloqueContacto {
+                   
+                   
+                    
+                   
+                }
+                   
+               
+            }
+        }
+    }
     
 
 }

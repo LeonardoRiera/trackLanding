@@ -1094,7 +1094,7 @@ header .fotoDesierto {
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 footer {
   width: 100%;
-  height: 45vmax;
+  height: 50vmax;
   background-color: #0e1910;
   margin: 0 !important;
 }
@@ -1176,33 +1176,114 @@ footer .bloque2 {
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  line-height: 1;
+  text-align: center;
+  margin-top: 1vmax;
+  letter-spacing: 1px;
   /* textos */
 }
 footer .bloque2 p {
   font-family: "Jockey One", system-ui;
   font-weight: bold;
-  font-size: 2vmax;
-  color: white;
+  font-size: 2.5vmax;
+  color: #2eff4d;
+}
+footer .bloque2 .span1 {
+  color: rgb(251, 249, 121);
+}
+footer .bloque2 .span2 {
+  color: #ff6933;
 }
 footer .bloque3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   /* imagenfinal */
 }
+footer .bloque3 .qrTitulo {
+  color: white;
+  font-family: "Jockey One", system-ui;
+  font-weight: 300;
+}
 footer .bloque3 .imagenFinal {
-  width: 10vmax;
+  width: 7vmax;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* seccion derechos */
+.derechosContainer {
+  width: 100%;
+  height: 3vmax;
+  background-color: #0c140c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.derechosContainer .derechos {
+  color: white;
+  text-align: center;
+  font-size: 0.9vmax;
+  font-family: "Abel", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.2px;
 }
 
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 992px) {
+  footer .contactos {
+    padding: 0 5vmax;
+  }
+  footer .linea {
+    width: 80%;
+  }
+}
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 835px) {
+  .contactos {
+    margin-top: -4vmax;
+  }
+}
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 636px) {
+  footer {
+    height: 60vmax;
+  }
+  footer .contactos {
+    padding: 0 2vmax;
+  }
+  footer .linea {
+    width: 80%;
+  }
+}
 /* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 576px) {
+  footer {
+    height: 85vmax;
+  }
+  footer .bloque3 .qrTitulo {
+    color: white;
+    font-family: "Jockey One", system-ui;
+    font-weight: 300;
+    font-size: 1.8vmax;
+    text-align: center;
+  }
+  footer .contactos {
+    margin-top: -2vmax;
+    padding: 0;
+    justify-content: center;
+  }
+  footer .contactos .contactosRow {
+    width: 40%;
+  }
+}
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
