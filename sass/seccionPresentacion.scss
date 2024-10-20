@@ -374,7 +374,7 @@
         }
 
         .seccion1Letras {
-
+            width: 60%;
             .seccionTitulo {
                 color:  #ff6933;
                 font-family: $tipografiaSecundaria;
@@ -419,23 +419,23 @@
    
     .logoMountainUnoContainer {
         
-        height: 70vmax;
+        height: 78vmax;
       
 
         .logoContainer {
             
-            width: 65%;
+            width: 70%;
               
     
         }
 
         .seccion1Letras {
-            width: 60%;
+            width: 75%;
            /*  align-items: center; */
            
             .seccionTitulo {
                
-                font-size: 8vmax;
+                font-size: 8.9vmax;
                 margin-left: 0;
                 
                 
@@ -446,7 +446,7 @@
             .seccionParrafo {
                align-self: center;
                 width: 80%;
-                font-size: 1.2vmax;
+                font-size: 1.7vmax;
     
             }
 
@@ -479,12 +479,23 @@
 
     .logoMountainUnoContainer {
 
-        height: 80vmax;
+        height: 87vmax;
         .seccion1Letras {
+            width: 85%;
+
+            .seccionTitulo {
+               
+                font-size: 9.5vmax;
+                margin-left: 0;
+                
+                
+
+                
+            }
             .seccionParrafo {
             
                 width: 95%;
-                font-size: 1.8vmax;
+                font-size: 2.2vmax;
 
             }
 
