@@ -98,6 +98,37 @@
 
 
     }
+
+    .fajasContainer {
+        border: 1px solid $colorTerciario;
+        border-radius: 10px;
+        margin: 2vmax 10vmax;
+        padding: 0 3vmax;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        .propuesta {
+            color: $colorTerciario;
+            font-family: $tipografiaPrincipal;
+            font-size: 3vmax;
+            padding: 1vmax 0;
+            margin: 0;
+        }
+
+        .Contactar {
+            @include boton;
+        }
+
+        .Contactar:hover {
+            color: rgb(253, 251, 121);
+            background-color: #ff5e23;
+        }
+
+
+
+    }
     
 }
 
@@ -134,7 +165,13 @@
 @media screen and (max-width:1200px) {
     
     
-  
+    .fajasContainer {
+
+        .Contactar {
+            padding: 0.2vmax 8vmax !important;
+        }
+
+    }
     
 }
 
@@ -223,6 +260,18 @@
     
     
         }
+
+        /* seccion propuestas */
+
+        .fajasContainer {
+            margin: 2vmax 8vmax;
+            padding: 0.9vmax 2.5vmax; 
+    
+            .Contactar {
+                padding: 0.8vmax 4.5vmax !important;
+            }
+    
+        }
         
     }
     
@@ -299,6 +348,25 @@
       
               
       
+        }
+
+         /* seccion propuestas */
+
+        .fajasContainer {
+            margin: 2vmax 11vmax;
+            padding: 1vmax 2.5vmax; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+    
+            .Contactar {
+                padding: 0.1vmax 3vmax !important;
+                font-size: 2.3vmax !important;
+                margin-bottom: 2vmax;
+
+            }
+    
         }
           
     }
@@ -453,8 +521,28 @@
               
       
         }
+
+           /* seccion propuestas */
+
+            .fajasContainer {
+                margin: 5vmax 5vmax;
+                padding: 1vmax 2vmax; 
+
+                .Contactar {
+                    padding: 0.3vmax 8vmax !important ;
+                    font-size: 2.7vmax;
+                    margin-bottom: 1.5vmax;
+                    margin-top: 1.5vmax;
+
+                }
+
+            }
+
+
           
     }
+
+  
 
 }
 

@@ -74,8 +74,8 @@ header .conectate {
   border-radius: 10px;
   font-size: 1.8vmax;
   font-family: "Teko", sans-serif;
-  position: absolute;
   text-align: center;
+  position: absolute;
   top: 38%;
   left: 50%; /* 50% desde la izquierda */
   transform: translateX(-50%);
@@ -860,16 +860,53 @@ header .fotoDesierto {
   font-size: 1.1vmax;
   font-weight: lighter;
 }
+.sectionLetter .fajasContainer {
+  border: 1px solid #2eff4d;
+  border-radius: 10px;
+  margin: 2vmax 10vmax;
+  padding: 0 3vmax;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionLetter .fajasContainer .propuesta {
+  color: #2eff4d;
+  font-family: "Jockey One", system-ui;
+  font-size: 3vmax;
+  padding: 1vmax 0;
+  margin: 0;
+}
+.sectionLetter .fajasContainer .Contactar {
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+  padding: 0.2vmax 2vmax;
+  background-color: #fc6d39;
+  border-radius: 10px;
+  font-size: 1.8vmax;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+}
+.sectionLetter .fajasContainer .Contactar:hover {
+  color: rgb(253, 251, 121);
+  background-color: #ff5e23;
+}
 
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 1200px) {
+  .fajasContainer .Contactar {
+    padding: 0.2vmax 8vmax !important;
+  }
+}
 /* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 992px) {
   .sectionLetter {
     /*   padding-top: 4vmax;
     */
     padding-bottom: 3vmax;
+    /* seccion propuestas */
   }
   .sectionLetter .letterPrincipal {
     display: flex;
@@ -922,12 +959,20 @@ header .fotoDesierto {
   .sectionLetter .letterSecundario .opinador2 {
     font-size: 1.1vmax;
   }
+  .sectionLetter .fajasContainer {
+    margin: 2vmax 8vmax;
+    padding: 0.9vmax 2.5vmax;
+  }
+  .sectionLetter .fajasContainer .Contactar {
+    padding: 0.8vmax 4.5vmax !important;
+  }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 835px) {
   .sectionLetter {
     /*   padding-top: 4vmax;
     */
+    /* seccion propuestas */
   }
   .sectionLetter .letterPrincipal {
     padding-left: 12vmax;
@@ -966,6 +1011,19 @@ header .fotoDesierto {
     padding-left: 3vmax;
     padding-right: 6vmax;
     margin-top: 14vmax;
+  }
+  .sectionLetter .fajasContainer {
+    margin: 2vmax 11vmax;
+    padding: 1vmax 2.5vmax;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .sectionLetter .fajasContainer .Contactar {
+    padding: 0.1vmax 3vmax !important;
+    font-size: 2.3vmax !important;
+    margin-bottom: 2vmax;
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
@@ -1018,6 +1076,7 @@ header .fotoDesierto {
   .sectionLetter {
     /*   padding-top: 4vmax;
     */
+    /* seccion propuestas */
   }
   .sectionLetter .letterPrincipal {
     padding-left: 5vmax;
@@ -1057,6 +1116,16 @@ header .fotoDesierto {
     padding-left: 1vmax;
     padding-right: 1.5vmax;
     margin-top: 14vmax;
+  }
+  .sectionLetter .fajasContainer {
+    margin: 5vmax 5vmax;
+    padding: 1vmax 2vmax;
+  }
+  .sectionLetter .fajasContainer .Contactar {
+    padding: 0.3vmax 8vmax !important;
+    font-size: 2.7vmax;
+    margin-bottom: 1.5vmax;
+    margin-top: 1.5vmax;
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/

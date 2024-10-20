@@ -84,6 +84,7 @@ header {
     
     .conectate {
         @include boton;
+        position: absolute;
         top: 38%;
         left: 50%; /* 50% desde la izquierda */
         transform: translateX(-50%);  
