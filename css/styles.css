@@ -588,9 +588,9 @@ header .fotoDesierto {
   }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 431px) {
   .logoMountainUnoContainer {
-    height: 90vmax;
+    height: 96vmax;
   }
   .logoMountainUnoContainer .seccion1Letras {
     width: 85%;
