@@ -529,7 +529,7 @@ header .fotoDesierto {
     margin-bottom: 2vmax;
   }
   .logoMountainUnoContainer .seccion1Letras {
-    width: 60%;
+    width: 72%;
   }
   .logoMountainUnoContainer .seccion1Letras .seccionTitulo {
     color: #ff6933;
@@ -557,7 +557,7 @@ header .fotoDesierto {
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 500px) {
   .logoMountainUnoContainer {
-    height: 78vmax;
+    height: 87vmax;
     /*   .laOla2 {
           margin-top: 8%;
       } */
