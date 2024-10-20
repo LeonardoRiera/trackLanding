@@ -1104,32 +1104,34 @@ footer .mountainFooter {
   width: 100%;
   margin-top: -5vmax;
 }
-footer .contactos {
+footer .contactosRow {
   display: flex;
   flex-direction: row;
   align-items: start;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: -6vmax;
   padding: 0 8vmax;
-  /* border-bottom: 2px solid rgba(255, 255, 255, 0.518); */
 }
-footer .contactos .bloqueContacto {
+footer .contactosRow .bloqueContacto {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+}
+footer .contactosRow .bloqueContacto .gralContainer {
+  display: flex;
   align-items: center;
 }
-footer .contactos .bloqueContacto i {
+footer .contactosRow .bloqueContacto .gralContainer i {
   color: #2eff4d;
   font-size: 3vmax;
   padding-bottom: 1vmax;
 }
-footer .contactos .bloqueContacto .parolas {
+footer .contactosRow .bloqueContacto .gralContainer .parolas {
   display: flex;
   flex-direction: column;
   padding-left: 2vmax;
   justify-content: center;
 }
-footer .contactos .bloqueContacto .parolas h5 {
+footer .contactosRow .bloqueContacto .gralContainer .parolas h5 {
   font-family: "Abel", sans-serif;
   font-weight: bold;
   color: white;
@@ -1137,7 +1139,7 @@ footer .contactos .bloqueContacto .parolas h5 {
   margin: 0;
   font-size: 2vmax;
 }
-footer .contactos .bloqueContacto .parolas p {
+footer .contactosRow .bloqueContacto .gralContainer .parolas p {
   font-family: "Abel", sans-serif;
   color: white;
   font-size: 1.2vmax;
@@ -1237,7 +1239,7 @@ footer .bloque3 .imagenFinal {
 /* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 992px) {
-  footer .contactos {
+  footer .contactosRow {
     padding: 0 5vmax;
   }
   footer .linea {
@@ -1246,7 +1248,7 @@ footer .bloque3 .imagenFinal {
 }
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 835px) {
-  .contactos {
+  .contactosRow {
     margin-top: -4vmax;
   }
 }
@@ -1256,7 +1258,7 @@ footer .bloque3 .imagenFinal {
   footer {
     height: 60vmax;
   }
-  footer .contactos {
+  footer .contactosRow {
     padding: 0 2vmax;
   }
   footer .linea {
@@ -1266,7 +1268,7 @@ footer .bloque3 .imagenFinal {
 /* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 576px) {
   footer {
-    height: 85vmax;
+    height: 130vmax;
   }
   footer .bloque3 .qrTitulo {
     color: white;
@@ -1275,16 +1277,96 @@ footer .bloque3 .imagenFinal {
     font-size: 1.8vmax;
     text-align: center;
   }
-  footer .contactos {
-    margin-top: -2vmax;
-    padding: 0;
+  footer .contactosRow {
     justify-content: center;
+    margin-top: -2vmax;
   }
-  footer .contactos .contactosRow {
-    width: 40%;
+  footer .contactosRow .bloqueContacto .gralContainer {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2vmax;
+  }
+  footer .contactosRow .bloqueContacto .gralContainer i {
+    font-size: 3vmax;
+    padding-bottom: 1vmax;
+  }
+  footer .contactosRow .bloqueContacto .gralContainer .parolas {
+    padding-left: 0vmax;
+  }
+  footer .contactosRow .bloqueContacto .gralContainer .parolas h5 {
+    font-size: 2.5vmax;
+    margin-bottom: 1vmax;
+  }
+  footer .contactosRow .bloqueContacto .gralContainer .parolas p {
+    font-size: 1.8vmax;
+  }
+  footer .bloque1 {
+    /* logo y redes */
+  }
+  footer .bloque1 .trackerFooter {
+    font-size: 8vmax;
+  }
+  footer .bloque1 .sociales i {
+    font-size: 3.8vmax;
+    padding: 0 0.8vmax;
+  }
+  footer .bloque2 {
+    line-height: 1;
+    margin-top: 1vmax;
+    letter-spacing: 1px;
+    /* textos */
+  }
+  footer .bloque2 p {
+    font-size: 4vmax;
+  }
+  footer .bloque3 {
+    /* imagenfinal */
+  }
+  footer .bloque3 .qrTitulo {
+    color: white;
+    font-family: "Jockey One", system-ui;
+    font-weight: 300;
+    font-size: 2vmax;
+  }
+  footer .bloque3 .imagenFinal {
+    width: 12vmax;
+    background-color: white;
+    border-radius: 5px;
+  }
+  /* seccion derechos */
+  .derechosContainer {
+    height: 3vmax;
+    background-color: #0c140c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .derechosContainer .derechos {
+    color: white;
+    text-align: center;
+    font-size: 1.2vmax;
+    font-family: "Abel", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2px;
   }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
+@media screen and (max-width: 500px) {
+  footer {
+    height: 150vmax;
+  }
+  footer .contactosRow .bloqueContacto .gralContainer i {
+    font-size: 4vmax;
+  }
+  footer .contactosRow .bloqueContacto .gralContainer .parolas h5 {
+    font-size: 3.5vmax;
+  }
+  footer .contactosRow .bloqueContacto .gralContainer .parolas p {
+    font-size: 2.3vmax;
+  }
+}
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 * {
