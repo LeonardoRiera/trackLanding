@@ -507,11 +507,11 @@ header .fotoDesierto {
     margin-right: 3vmax;
   }
   .logoMountainUnoContainer .seccion1Letras .seccionParrafo {
-    width: 60%;
+    width: 80%;
     color: rgb(251, 249, 121);
     font-family: "Abel", sans-serif;
     font-weight: lighter;
-    font-size: 1.2vmax;
+    font-size: 1.6vmax;
   }
   .logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
     width: 60%;
@@ -543,6 +543,12 @@ header .fotoDesierto {
     width: 100%;
     font-size: 1.9vmax;
     text-align: center;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionParrafo .destacacion {
+    font-size: 2.5vmax;
+  }
+  .logoMountainUnoContainer .seccion1Letras .seccionParrafo .destacacion2 {
+    font-size: 2.5vmax;
   }
   .logoMountainUnoContainer .seccion1Letras .olaContenedor .laOla {
     width: 100%;
@@ -584,7 +590,7 @@ header .fotoDesierto {
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 428px) {
   .logoMountainUnoContainer {
-    height: 87vmax;
+    height: 90vmax;
   }
   .logoMountainUnoContainer .seccion1Letras {
     width: 85%;
