@@ -1210,6 +1210,9 @@ footer .contactosRow .bloqueContacto .gralContainer i {
   font-size: 3vmax;
   padding-bottom: 1vmax;
 }
+footer .contactosRow .bloqueContacto .gralContainer i:hover {
+  color: rgb(251, 249, 121);
+}
 footer .contactosRow .bloqueContacto .gralContainer .parolas {
   display: flex;
   flex-direction: column;
@@ -1229,6 +1232,14 @@ footer .contactosRow .bloqueContacto .gralContainer .parolas p {
   color: white;
   font-size: 1.2vmax;
 }
+footer .contactosRow .bloqueContacto .gralContainer .parolas p a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2vmax;
+}
+footer .contactosRow .bloqueContacto .gralContainer .parolas p a:hover {
+  color: #2eff4d;
+}
 footer .linea {
   color: #2eff4d;
   width: 70%;
@@ -1243,7 +1254,8 @@ footer .bloque1 {
   align-items: center;
   /* logo y redes */
 }
-footer .bloque1 .trackerFooter {
+footer .bloque1 .trackerFooter a {
+  text-decoration: none;
   font-family: "Jockey One", system-ui;
   color: #ff6933;
   font-weight: bold;
