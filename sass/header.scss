@@ -78,7 +78,7 @@ header {
         text-align: center;
         top: 8%;
         left: 50%; /* 50% desde la parte izquierda del contenedor */
-        transform: translateX(-50%); 
+        transform: translateX(-50%) !important; 
         line-height: 0.9;
     }
     
@@ -143,14 +143,6 @@ header {
 
    
     
-    .textoPrincipal {
-        /* font-size: 12vmax; */
-       
-       /*  left: 29%;  */
-    }
-    
-    
-    
 }
 
 
@@ -160,23 +152,15 @@ header {
 
 @media screen and (max-width:1200px) {
     
-    /* .nav-link {
-                
-        font-size: 3vmax;
-        
-    } */
-
+   
     .textoPrincipal {
-        /* font-size: 12vmax; */
-       
-       /*  left: 40%;  */
+        
     }
     header {
     
         nav {
            
             .navbar-nav {
-                /* align-items: center; */
                 margin-top: 5vmax;
                
             }
@@ -196,24 +180,6 @@ header {
             }
         }
       
-  
-        .fotoDesierto {
-            /* top: 1vmax; */
-        } 
-        
-        .textoPrincipal {
-           /*  font-size: 11vmax;
-           top: 15%;
-           left: 30%; */ 
-        }
-    
-        .conectate {
-           /*  font-size: 2.2vmax;
-            top: 48%;
-            left: 43%; */
-        }
-  
-  
   
   
     } 
@@ -236,18 +202,7 @@ header {
         
       
         nav {
-         /* .linksYBotones {
-            top:2.2%;
-            left: 72%;
-            width: 40%;
-          
-        
-          } */
-        
-         /* .linksYBotones p {
-            font-size: 3vmax;
-               
-          } */
+         
 
            .navbar-nav {
                 align-items: center;
@@ -271,20 +226,16 @@ header {
         }
     
 
-        .fotoDesierto {
-          /* top: 1vmax; */
-        } 
-      
         .textoPrincipal {
           font-size: 11vmax;
          top: 15%;
-         /* left: 30%;  */
+         
         }
   
         .conectate {
           font-size: 2.2vmax;
           top: 48%;
-          /* left: 43%; */
+          
         }
 
 
@@ -303,13 +254,7 @@ header {
 
 @media screen and (max-width:835px) {
 
-    header {
-        /* height: 73.6vmax; */
-
-        .fotoDesierto {
-            /* top: 22vmax; */
-        } 
-    }
+   
 
    
     
@@ -329,19 +274,6 @@ header {
        
         nav {
 
-           /*  .linksYBotones {
-        
-                left: 69%;
-               
-              
-            
-            } */
-            
-            /* .linksYBotones p {
-                font-size: 3.3vmax;
-                   
-            } */
-
 
             .navbar-nav {
                 align-items: center;
@@ -355,10 +287,7 @@ header {
                 
             }
         
-            .falsoBoton {
-                
-            }
-        
+            
             .tracker {
                 font-size: 4.5vmax;
             }
@@ -368,20 +297,17 @@ header {
         .textoPrincipal {
             font-size: 12vmax;
             top: 17%;
-           /*  left: 29%; */ 
+           
         }
         
         .conectate {
             font-size: 3vmax;
              top: 50%;
-           /*  left: 43%; */
+           
         }
         
         
-        .fotoDesierto {
-          /* top: 10vmax */
-        } 
-            
+         
 
     }  
 
@@ -403,18 +329,7 @@ header {
         
         nav {
  
-            /* .linksYBotones {
-         
-                left: 60%;
-                
-               
-               
-            } */
-             
-            /* .linksYBotones p {
-                font-size: 4vmax;
-                    
-            } */
+           
 
             .navbar-nav {
                 align-items: center;
@@ -441,21 +356,17 @@ header {
         .textoPrincipal {
             font-size: 12vmax;
             top: 17%;
-            /* left: 29%; */ 
+           
         }
          
         .conectate {
             font-size: 3.8vmax;
             top: 50%;
-            /* left: 43%; */
+           
         }
          
          
-        .fotoDesierto {
-            /* top: 19vmax; */
-        } 
-             
- 
+       
     }  
  
 
@@ -510,20 +421,18 @@ header {
         .textoPrincipal {
             font-size: 11vmax;
             top: 19%;
-            /* left: 28%; 
-            transform: translateX(-50%); */ 
+            
         }
          
         .conectate {
             font-size: 3.5vmax;
             top: 52%;
-            /* left: 41%;
-            transform: translateX(-50%);  */
+            
         }
          
          
         .fotoDesierto {
-           /*  top: 21vmax; */
+           
             width: 90vmax;
         } 
              
@@ -541,18 +450,18 @@ header {
     header {
 
         .textoPrincipal {
-            /* font-size: 12vmax; */
+            
             top: 19%;
-            /* left: 25%; */ 
+            
         }
 
         .conectate {
             font-size: 3.5vmax;
             top: 52%;
-          /*   left: 41%; */
+          
         }
         .fotoDesierto {
-           /*  top: 21vmax; */
+           
             width: 90vmax;
         } 
     }
@@ -567,15 +476,15 @@ header {
 @media screen and (max-width:425px) {
     header {
         .textoPrincipal {
-           /*  font-size: 12vmax; */
             top: 19%;
-           /*  left: 19%; */ 
+            
+          
         }
 
         .conectate {
             font-size: 3.5vmax;
             top: 52%;
-            /* left: 38%; */
+            
         }
 
     }

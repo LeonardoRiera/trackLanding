@@ -63,7 +63,7 @@ header .textoPrincipal {
   text-align: center;
   top: 8%;
   left: 50%; /* 50% desde la parte izquierda del contenedor */
-  transform: translateX(-50%);
+  transform: translateX(-50%) !important;
   line-height: 0.9;
 }
 header .conectate {
@@ -103,25 +103,9 @@ header .fotoDesierto {
 
 /* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
 /* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
-@media screen and (max-width: 1400px) {
-  .textoPrincipal {
-    /* font-size: 12vmax; */
-    /*  left: 29%;  */
-  }
-}
 /* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 1200px) {
-  /* .nav-link {
-
-      font-size: 3vmax;
-
-  } */
-  .textoPrincipal {
-    /* font-size: 12vmax; */
-    /*  left: 40%;  */
-  }
   header nav .navbar-nav {
-    /* align-items: center; */
     margin-top: 5vmax;
   }
   header nav .nav-link {
@@ -133,38 +117,12 @@ header .fotoDesierto {
   header nav .tracker {
     font-size: 4.2vmax;
   }
-  header .fotoDesierto {
-    /* top: 1vmax; */
-  }
-  header .textoPrincipal {
-    /*  font-size: 11vmax;
-    top: 15%;
-    left: 30%; */
-  }
-  header .conectate {
-    /*  font-size: 2.2vmax;
-     top: 48%;
-     left: 43%; */
-  }
 }
 /* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 992px) {
   /* header y nav */
   header {
     height: 66vmax;
-  }
-  header nav {
-    /* .linksYBotones {
-       top:2.2%;
-       left: 72%;
-       width: 40%;
-
-
-     } */
-    /* .linksYBotones p {
-       font-size: 3vmax;
-
-     } */
   }
   header nav .navbar-nav {
     align-items: center;
@@ -177,47 +135,21 @@ header .fotoDesierto {
   header nav .tracker {
     font-size: 4vmax;
   }
-  header .fotoDesierto {
-    /* top: 1vmax; */
-  }
   header .textoPrincipal {
     font-size: 11vmax;
     top: 15%;
-    /* left: 30%;  */
   }
   header .conectate {
     font-size: 2.2vmax;
     top: 48%;
-    /* left: 43%; */
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada | ++++++++++++++++++++++++++++++++++*/
-@media screen and (max-width: 835px) {
-  header {
-    /* height: 73.6vmax; */
-  }
-  header .fotoDesierto {
-    /* top: 22vmax; */
-  }
-}
 /* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 768px) {
   /* header y nav */
   header {
     height: 75vmax;
-  }
-  header nav {
-    /*  .linksYBotones {
-
-         left: 69%;
-
-
-
-     } */
-    /* .linksYBotones p {
-        font-size: 3.3vmax;
-
-    } */
   }
   header nav .navbar-nav {
     align-items: center;
@@ -233,34 +165,16 @@ header .fotoDesierto {
   header .textoPrincipal {
     font-size: 12vmax;
     top: 17%;
-    /*  left: 29%; */
   }
   header .conectate {
     font-size: 3vmax;
     top: 50%;
-    /*  left: 43%; */
-  }
-  header .fotoDesierto {
-    /* top: 10vmax */
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla personalizada   | ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 636px) {
   header {
     height: 80vmax;
-  }
-  header nav {
-    /* .linksYBotones {
-
-        left: 60%;
-
-
-
-    } */
-    /* .linksYBotones p {
-        font-size: 4vmax;
-
-    } */
   }
   header nav .navbar-nav {
     align-items: center;
@@ -276,15 +190,10 @@ header .fotoDesierto {
   header .textoPrincipal {
     font-size: 12vmax;
     top: 17%;
-    /* left: 29%; */
   }
   header .conectate {
     font-size: 3.8vmax;
     top: 50%;
-    /* left: 43%; */
-  }
-  header .fotoDesierto {
-    /* top: 19vmax; */
   }
 }
 /* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
@@ -318,48 +227,36 @@ header .fotoDesierto {
   header .textoPrincipal {
     font-size: 11vmax;
     top: 19%;
-    /* left: 28%; 
-    transform: translateX(-50%); */
   }
   header .conectate {
     font-size: 3.5vmax;
     top: 52%;
-    /* left: 41%;
-    transform: translateX(-50%);  */
   }
   header .fotoDesierto {
-    /*  top: 21vmax; */
     width: 90vmax;
   }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla personal |   ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 500px) {
   header .textoPrincipal {
-    /* font-size: 12vmax; */
     top: 19%;
-    /* left: 25%; */
   }
   header .conectate {
     font-size: 3.5vmax;
     top: 52%;
-    /*   left: 41%; */
   }
   header .fotoDesierto {
-    /*  top: 21vmax; */
     width: 90vmax;
   }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
 @media screen and (max-width: 425px) {
   header .textoPrincipal {
-    /*  font-size: 12vmax; */
     top: 19%;
-    /*  left: 19%; */
   }
   header .conectate {
     font-size: 3.5vmax;
     top: 52%;
-    /* left: 38%; */
   }
 }
 /* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
