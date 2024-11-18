@@ -63,7 +63,7 @@ header .textoPrincipal {
   text-align: center;
   top: 8%;
   left: 50%; /* 50% desde la parte izquierda del contenedor */
-  transform: translateX(-50%) !important;
+  transform: translateX(-50%);
   line-height: 0.9;
 }
 header .conectate {
