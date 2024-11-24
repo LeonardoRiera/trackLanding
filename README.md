@@ -1,6 +1,6 @@
 # Mi Proyecto -Tracker Mountain Style-
 
-Este proyecto está creado con React y Vite. Proyecto que trabaja mayormente en Sass y Javascript
+Este proyecto trabaja mayormente en Sass y Javascript
 
 ## Tecnologías utilizadas
 - Javascript
